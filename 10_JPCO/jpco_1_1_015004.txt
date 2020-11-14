@@ -1,0 +1,139 @@
+TYPE	Paper
+DOI	http://doi.org/10.1088/2399-6528/aa7ef9
+JOURNAL	Journal of Physics Communications
+DATE	21/08/2017
+AUTHOR	 Dhuey, Scott; Testini, Angelica; Koshelev, Alexander; Borys, Nicholas; Piper, Jessica R; Melli, Mauro; Schuck, P James; Peroz, Christophe; Cabrini, Stefano; 	 
+ADDRESS	1 Molecular Foundry, Lawrence Berkeley National Lab, 67 Cyclotron Rd, Berkeley, CA 94720, United States of America > 2 aBeam Technologies Inc., 22290 Foothill Blvd. St. 2, Hayward, CA 94541, United States of America > 3 Exponent, Inc. 149 Commonwealth Dr Menlo Park, CA 94025, United States of America > 
+TITLE	Three-dimensional woodpile photonic crystals for visible light applications
+ACRONYMS	Chemical Mechanical Polishing (CMP) ; Photonic Band Gap (PBG) ; 
+KEYWORDS	 electron beam lithography; photonic crystals; three-dimensional photonic crystal; three-dimensional nanofabrication
+ABSTRACT	Three-dimensional woodpile photonic crystals for the visible light regime were fabricated using a layer-by-layer electron beam lithography process.
+ABSTRACT	The materials consisted of silicon nitride for the high index material and the planarization was accomplished using a spin-coated nano-porous silica material which was left in place as the interstitial material.
+ABSTRACT	This fabrication procedure presents a simplified route for constructing multilayer structures where planarization is necessary, including three-dimensional photonic crystals (3DPCs) or three-dimensional metamaterials.
+ABSTRACT	To demonstrate the robustness of the approach, multiple 3DPCs were fabricated and optically characterized.
+ABSTRACT	Multiplane waveguide defects were inserted in the crystals and characterized.
+ABSTRACT	The vertical waveguides demonstrate enhanced transmission of light, and work continues to realize waveguiding through the full three-dimensional network of waveguides.
+__SECTION__ Introduction.
+Photonic crystals are structures in which the refractive index ( n ) is periodically modulated.
+If the length scale of the modulation is comparable to the wavelength of light, and the refractive index contrast is sufficiently large, it opens up a photonic band gap (PBG) which will prevent propagation of that wavelength of light [ 1 ].
+Much work has been done with two-dimensional photonic crystals, where the periodic variation is in two axes, thus preventing propagation of only in-plane wave vectors [ 2 , 3 ].
+Three-dimensional photonic crystals (3DPCs) have a periodic variation in three axes, allowing the effect to operate at all angles of incident light [ 4 , 5 ].
+The crystal therefore has an omnidirectional PBG and allows for more complex light confinement in three-dimensions.
+This attribute allows the 3DPC to control spontaneous emission [ 6 ], and therefore can be used for frequency selection in light emitting diodes [ 7 ] and enhanced absorption for solar energy conversion [ 8 ].
+Line defects within the crystal can allow for multi-plane or multi-directional waveguides, which could be employed in all optical computing schemes [ 9 , 10 ].
+There have been a number of works fabricating 3DPCs for infrared and near-infrared wavelengths [ 11 - 13 ], but fewer 3DPCs have been fabricated for the visible light regime, due to the rigorous fabrication and material requirements.
+Many that have been fabricated are created through self-assembly of inverse opals [ 14 ], which are generally not amenable to programmed defects.
+When fabricating structures for infrared, silicon is often used because it is transparent to infrared light, has a high refractive ( n = 3.5 at 1.5 µ m wavelength), and has a wide suite of standard fabrication processes available due to its common use in the semiconductor industry.
+When moving to the visible light regime, silicon is no longer transparent, so it is necessary to use alternative materials that are transparent, but typically have a lower refractive index, such as titanium dioxide or silicon nitride.
+There is the additional problem of fabricating features of much smaller dimensions, as the period of the features is half the wavelength of interest.
+The face-centered cubic (FCC) design allows for a PBG for a refractive index as low as 2.0 relative to air [ 15 ], allowing lower index materials with greater visible light transparency to be employed to create a 3DPC for the visible light range.
+Candidate materials include titanium dioxide [ 16 , 17 ], or gallium nitride [ 18 ].
+The FCC crystal structure can be realized using a woodpile design with stacked rods of high index material.
+The woodpile is generally fabricated using a layer-by-layer approach using electron beam lithography and etching [ 12 ].
+This crystal design has the added benefit of more precisely programming the location of defects within the lattice of the crystal to allow for defect modes in the band gap.
+Particularly, the placement of line deletion defects at specific rod positions allows for more precise waveguides [ 6 ].
+The trade-off is layer-by-layer fabrication can be slower than self-assembly due to the greater number of fabrication steps.
+Each layer also requires precise overlay accuracy and planarization between each layer.
+Planarization of patterned layers in a multilayer stack adds an extra level complexity.
+Often features are back-filled with a deposited sacrificial material such as silicon dioxide, which deposits a layer conformal to the rods.
+Chemical mechanical polishing (CMP) or a reactive ion etching (RIE) back etch is then needed to create a flat surface.
+CMP can be a very complex and expensive process, often limited to semiconductor manufacturing [ 19 ], and RIE back etch has a uniform material removal rate, so it does not leave the desired flat surface.
+The planarization process must be accurate to simultaneously avoid polishing away part of the rods while completely removing all sacrificial material on top of the rods which could otherwise lead to delamination of subsequent layers during removal of the sacrificial material.
+Here we demonstrate the fabrication of woodpile 3DPCs using a novel layer-by-layer approach based on electron beam lithography and etching of silicon nitride; with an interstitial material of nano-porous silicon dioxide.
+It is made of stacked silicon nitride rods that are 95 nm wide by 95 nm tall, placed in a linear array with a period of 270 nm.
+The rods are rotated by 90° with respect to the previous layer, and shifted by one half the period every second layer (figure 1 (a)).
+These dimensions give a band gap centered at approximately 600 nm.
+The layer-by-layer woodpile design allows inclusion of multi-plane line defects for waveguides, which have not yet been demonstrated in 3DPCs for the visible light regime (figure 1 (b)).
+The silicon nitride has an n = 2.2 and is easily deposited by PECVD and is amenable to high accuracy plasma etching.
+The nano-porous silicon dioxide is supplied by SBA materials [ 20 ], and is a silicon dioxide based polymer that can be spun-coated and annealed, forming the nano-porous silica with an n = 1.2.
+After fabricating the silicon nitride rods, the next step was to spin-coat the SBA polymer for planarization.
+The nano-porous silica self-planarizes upon spin-coating, so no CMP is required.
+As well, because the n = 1.2 is very close to that of air, there is no need to remove the nano-porous silica at the end, which eliminates the extra step of an acid wet etching and the associated possibility of delamination of subsequent layers.
+Such delamination from acid wet etching would be of particular concern if the substrate is glass, often necessary when working in the visible regime, which would be etched by the acid as well and undercut the structure.
+The nano-porous silica also adds to the structural stability of the crystal.
+This process with the nano-porous silica can be applicable to many 3D processes including crystals of higher index materials or to 3D metamaterials.
+__SECTION__ Methods.
+Two sets of crystals were fabricated.
+The first was an eight layer 3DPC on a silicon wafer with 350 nm of SiO ; which allowed cross sectional imaging to verify the structure of the crystal after the process.
+The second was a 10 layer 3DPC on fused silica; for performing transmission measurements and measuring the waveguide defects.
+The area of each crystal was 1 mm <sup>2</sup> .
+The set of fabrication steps on both substrates were the same.
+First, a set of gold alignment marks for the overlay was fabricated.
+The gold was 200 nm thick to allow the electron beam tool, operating at 100 kV, to see the marks, even after numerous layers of silicon nitride were deposited over them.
+Using the same set of marks for all fabrication steps avoids any compounding overlay alignment errors that may arise from fabricating a new set of marks after each layer, which could suffer from slight misalignment due to the lithography step which exposes the marks.
+The subsequent steps were repeated for each layer of the crystal.
+First, a 95 nm layer of silicon nitride was deposited by plasma enhanced chemical vapor deposition (PECVD) using an Oxford Instruments PECVD.
+The process was optimized to give the best transparency to visible light: 100 sccm 1% SiH /Ar, 50 scccm N , 600 mTorr, LF 20 W, RF 60 W, at 400 °C for 17 min.
+The index of refraction was determined to be n = 2.2 using ellipsometer.
+Next, ZEP 520A, diluted to 50% in anisole by volume, was spin-coated at 4000 rpm to give 150 nm of resist.
+When exposing the resist on the glass substrate, it was necessary to spin coat Aquasave [ 21 ] on top of the resist as a charge dissipation layer.
+The Aquasave is removed after exposure, before development, by dipping in water.
+The resist was patterned using a Vistec VB300 electron beam lithography tool at 100 kV and 2 nA.
+The resist was subsequently developed by ultrasonication in amyl acetate for one minute.
+The unexposed ZEP masked the silicon nitride during plasma etching to give silicon nitride rods.
+The silicon nitride was etched in an Oxford Instruments reactive ion etcher with gas flow of 48 sccm CHF and 2 sccm O , at a pressure of 55 mTorr, and a power of 25 W, at a temperature of 20 °C. The etch rate is slow at 8 nm per minute, and thus very controllable and repeatable.
+The remaining resist was then stripped by soaking in dichloromethane.
+After formation of the silicon nitride rods, it is necessary to planarize the surface before the next silicon nitride deposition.
+This step is accomplished by spin coating the SBA polymer at 1400 rpm, then baking at 150 °C for 2 min, and finally annealing at 400 °C for 1 h.
+The SBA polymer is low viscosity, so it easily infiltrates the etched trenches, and small changes in spin speed will precisely tune the final thickness of the material filling the trenches.
+Figure 2 (a) shows the SBA polymer spun and annealed on a grating pattern similar to that of the photonic crystal.
+It is noticeably flat upon spinning without any polishing steps.
+There is a small residual amount on top of the lines, but since the nano-porous silica is not dissolved at the end, there is no concern about delamination.
+The SBA polymer self-assembles into a porous silica structure, and all organic material is burned off during the annealing step of 400 °C for one hour.
+It was necessary to verify the robustness of the measured refractive index of 1.2 over varying anneal steps.
+The SBA polymer is annealed at 400 °C for hour, and then a layer of silicon nitride is deposited at 400 °C, and this is repeated for each layer.
+So the first layer receives 16-20 annealing steps, whereas the last layer only receives one.
+It is important that the index not vary with the number of anneal steps.
+Figure 2 (b) shows the results of an experiment where the SBA polymer is annealed for varying amounts of time, from 1 to 5 h.
+At different annealing times, the refractive index is measured by an ellipsometer and compared.
+The n varies by a total of 0.4% between the maximum and minimum values, therefore, confirming that the optical properties do not vary appreciably due to variations in anneal time.
+Following deposition of the nano-porous silica layer, the previously described processes are then repeated to form the next layers, beginning with the silicon nitride layer deposition.
+These processes were repeated 8-10 times depending on the number of layers in the crystal.
+__SECTION__ Results.
+Figure 3 shows a cross-sectioned SEM image of the 8 layer 3DPC on silicon substrate.
+The brightest squares are the silicon nitride rods, perpendicular to the cut.
+The area between the squares is the SBA nano-porous silica.
+Because every second layer is shifted by one half the period, every alternating layer, in this case the even numbered layers, are alternating nano-porous silica and silicon nitride.
+The overlay alignment from layer to layer is excellent, the error in all cases being less than 10 nm.
+The nano-porous silica infiltration between rods is very flat across them with minimal perceptible residual layer.
+The basic realized structure of the 10 layer crystals were similar to that of the 8 layer crystals on silicon.
+The optical performance of the crystals was measured and compared to simulated reflectance spectra; see supplementary information available online at .
+The simulations were performed by rigorous coupled wave analysis using and open source package [ 22 ]; see supplementary information.
+Figure 4 (a) shows the results of the reflection measurement for the 8 layer 3DPC on silicon.
+There is a clear reflection peak centered at around 590 nm, where approximately 70% of the light is reflected, confirming the crystal has a PBG.
+The percentage of light reflected is determined by the number of layers, so more layers would increase this percentage even more.
+There is good agreement with the simulation.
+Figure 4 (b) shows the measured reflectance for the 10 layer crystal on glass.
+There is good agreement with the simulation, and it shows a slightly higher reflection of 85%, relative to the 8 layer crystal, as would be expected from the greater number of layers.
+There is a shift of the center of the peak towards the green, from 580 nm down to 530 nm, relative to the 8 layer crystal on Si.
+This difference can be attributed to thinner silicon nitride, which reduced the pitch between layers in the unit cell, and therefore shifting the peak to a smaller wavelength [ 15 ].
+The transmission spectrum of the 10 layer 3DPC on glass was measured at multiple incident angles; see supplementary information.
+A 3DPC exhibits an omnidirectional PBG with an optical response which does not vary over a large angular range.
+To demonstrate this property, we have measured the transmission spectra of the 3DPC by illuminating the sample with the white light narrow quasi-collimated beam, and varying the angle of the sample relative to the beam.
+Figure 5 (a) shows the simulated angle measurements of the 3DPC.
+The different colors show the transmittance at multiple angles of 0°-40° with respect to normal incidence.
+The simulation shows an angle-independent dip in transmission for all angles centered at approximately 530 nm.
+Figure 5 (b) shows the experimental demonstration of the transmittance.
+It is noted that the experimental transmission matches well with that of the simulation.
+Waveguiding of the light in the network of line defects in the 10 layer crystal on glass was explored (figure 1 (b)).
+The line defects were a deletion of a single nitride rod and were based on the design rules specified by Noda et al [ 23 ], including line extensions to serve as intermediate cavities and vertical waveguides offset at an oblique angle to facilitate dispersion matching.
+The line defects consisted of a vertical input waveguide, which is connected to a 30 µ m long horizontal waveguide, which was then connected to an output vertical waveguide.
+Figure 6 (a) shows an image made by imaging white light in transmission with an avalanche photodiode with a 70 nm bandpass centered at 525 nm; see supplementary information.
+The buried horizontal waveguide defect at layer 6 of the 10 layer crystal can be clearly seen, with circular area at either end representing the connecting vertical waveguides.
+We also measured the local spectral response of the waveguide defects.
+A 4 µ m diameter beam of white light was used to probe the 3D waveguide.
+Figure 6 (b) shows the local transmission spectra at the input and output of a waveguide.
+The spectral response was reordered over the visible wavelength range and shows a similar behavior for both vertical waveguides.
+The intensity of the transmitted light through the waveguide is normalized to the transmission through the bulk 3DPC.
+It can be clearly observed an enhanced transmission of light at 510 nm wavelength through both defect lines, which we tentatively conclude originates from the defect mode in the crystal from the individual vertical waveguides.
+However, we note that long-range guiding across the defect was not conclusively observed when broadband illumination from a supercontinuum laser source was injected in either of the input or output ports.
+We hypothesize that although the defect appears to be working as evident from the local transmission spectra, deleterious losses at the intersection of the waveguides and/or over the length of the 30 µ m long horizontal waveguide, prohibit efficient transmission along the entire length from one port to another.
+Such losses may be due to insufficient refractive index contrast, which would require use of a higher index material for the rods, or could possibly be solved simply by adding more layers to the crystal.
+__SECTION__ Conclusion.
+Three-dimensional woodpile photonic crystals for the visible light regime were fabricated using a layer-by-layer electron beam lithography process.
+The materials consisted of silicon nitride for the high index material and the planarization was accomplished using a spin-coated porous silica material which was left in place as the interstitial material.
+This fabrication process presents a simplified route for constructing multilayer structures where planarization is necessary, including 3DPCs or three-dimensional metamaterials.
+The optical properties were measured and the PBG reflected 75% of green light.
+The angular dependence was determined by transmission measurements and was determined to have an angle-independent PBG up to 40° from normal incidence.
+The crystals contained multiplane line defects for waveguides, and transmission through the crystal was enhanced through the vertical waveguide.
+Work continues to realize waveguiding through the full three-dimensional network of waveguides.

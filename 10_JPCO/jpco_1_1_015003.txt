@@ -1,0 +1,157 @@
+TYPE	Paper
+DOI	http://doi.org/10.1088/2399-6528/aa80c1
+JOURNAL	Journal of Physics Communications
+DATE	21/08/2017
+AUTHOR	 Libi Mol, V A; Aanandan, C K; 	 
+ADDRESS	Department of Electronics, Cochin University of Science and Technology , Kerala, India > 
+TITLE	An ultrathin microwave metamaterial absorber with enhanced bandwidth and angular stability
+ACRONYMS	Electric Ring Resonator (ERR) ; Frequency Selective Surfaces (FSS) ; High Impedance Surfaces (HIS) ; Perfect Electric Conductor (PEC) ; Radar Absorbing Material (RAM) ; Radar Cross Section (RCS) ; 
+KEYWORDS	 metamaterial absorber; bandwidth enhancement; polarization independent; angular stability; antenna RCS reduction
+ABSTRACT	A very thin metamaterial absorber with enhanced bandwidth and angular stability is designed and its application in radar cross section (RCS) reduction of antenna is discussed in this paper.
+ABSTRACT	First, a wideband absorber element consisting of an unconnected square loop and unconnected printed cross on a metal backed FR-4 dielectric is designed.
+ABSTRACT	This structure has full width half maximum bandwidth of 0.41 GHz and exhibits polarization independent JPCOcharacteristics.
+ABSTRACT	It also shows good absorption characteristics for incident angles up to 40° for TE and TM polarized wave.
+ABSTRACT	Further enhancement in bandwidth up to 0.574 GHz is achieved by arranging the structures with overlapping resonances as a 2 × 2 array.
+ABSTRACT	This 2 × 2 array is used as the unit cell for the larger array.
+ABSTRACT	This structure also exhibits polarization independent characteristics and good angular stability up to 60°.
+ABSTRACT	The values of effective permittivity and permeability are retrieved from the reflection and transmission parameters of the structure.
+ABSTRACT	These parameters also validates the absorption characteristics of the structure.
+ABSTRACT	The performance of the fabricated structure for different polarization and angle of incidence is measured and the results are in good agreement with simulation.
+ABSTRACT	Finally, the use of this structure to reduce the RCS of a patch antenna is demonstrated.
+__SECTION__ Introduction.
+In recent years, researchers have found many interesting application of artificially engineered characteristics of metamaterials.
+High impedance surfaces (HIS) are metamaterials exhibiting artificial magnetic conductor (AMC) and surface wave suppression property at the resonance frequency [ 1 ].
+HIS consist of an array of patches over metal backed dielectric.
+AMC exhibits varying reflection phase from +180° to -180° crossing 0° at a single frequency.
+At this resonance frequency, it exhibits very high impedance and the incident electromagnetic wave is reflected back without any phase reversal.
+Due to this characteristic, they are usually referred as perfect magnetic conductor, which is the dual of perfect electric conductor (PEC).
+The bandwidth of operation is defined as the frequency range in which the structure shows reflection phase variation from +90° to -90°, because in this range the phase values do not cause any destructive interference between the direct and reflected wave.
+Due to this in phase reflection property, HIS have found applications in low profile antenna design [ 2 ], Fabry-Perot cavity antennas [ 3 ], radar cross section (RCS) reduction [ 4 ], etc.
+HIS are also employed to reduce the mutual coupling in antenna arrays [ 5 ] due its surface wave suppression property.
+HIS on a lossy dielectric behaves as perfect absorber [ 6 ].
+RCS measures the detectability of target when illuminated by an electromagnetic wave.
+The common methods used for RCS reduction are by absorbing the incident wave using radar absorbing material (RAM) or by redirecting the scattered wave away from the observer.
+Holloway et al reported the reflection and transmission properties of metafilm [ 7 ], in which it is proposed that the transmission and reflection properties can be controlled by changing the electric and magnetic polarizability.
+HIS, which consists of an array of frequency selective surfaces (FSS) over grounded dielectric layer is a good candidate for designing narrowband or wideband absorbers by introducing loss either to dielectric layer [ 6 ] or FSS layer [ 8 , 9 ], respectively.
+The narrowband absorbers designed by exploiting the dielectric loss of HIS layer are referred to as perfect metamaterial absorbers [ 6 ].
+First perfect metamaterial absorber consisting of electric ring resonator (ERR) and cut wire was proposed by Landy et al [ 10 ], in 2008.
+The electromagnetic power confined within the metmaterial due to the independently tuned electric and magnetic resonances by ERR and cut wire can be gradually dissipated due to the dielectric and ohmic losses of the structure and can result in perfect absorption.
+Metamaterial absorbers are characterized by light weight, low profile and flexibility.
+Several planar dual band, multiband, variable band, polarization independent and angularly stable matamaterial absorbers were reported till date [ 11 - 16 ].
+Conformal absorbers made up of thin substrates working in microwave, terahertz and infrared frequency regimes were also studied widely by researchers [ 17 - 20 ].
+Several techniques are introduced in literature to overcome the disadvantage of narrow bandwidth of these type of absorbers.
+High permeability magnetic material are used instead of electrical substrate to enhance the bandwidth [ 21 , 22 ].
+But this configuration results in increased weight.
+Similar resonators with different dimensions on multiple dielectric layers are stacked to achieve enhancement in bandwidth [ 23 ].
+The main drawback of this configuration is increase in dielectric thickness.
+In another technique, multiple resonating structures with closer resonant frequencies are arranged close to each other to enhance the bandwidth [ 24 - 28 ].
+In this paper, an ultrathin metamaterial absorber with enhanced bandwidth and angular stability is designed and its application in RCS reduction of antenna is discussed.
+The structure consist of an array of unconnected square loop and unconnected printed cross on a metal backed FR-4 substrate.
+It gives a full width half maximum (FWHM) bandwidth of 0.41 GHz.
+When the same geometrical structures with different dimensions are used in the array, FWHM bandwidth is enhanced to 0.574 GHz.
+The effective medium parameters such as effective permittivity and permeability are retrieved using effective medium theory to investigate the absorption mechanism of the proposed structure [ 29 - 32 ].
+It is observed that the retrieved parameters well explains the absorption mechanism.
+The prototype of the structure is fabricated and the characteristics of the structure is validated for different polarization and oblique incidence by simulation and measurement.
+The characteristics remain within tolerable limits at different polarization of the incident wave at different angles of incidence.
+__SECTION__ Design of the proposed structure.
+__SECTION__ Design of the wideband element.
+Basic unit cell of the wideband element is shown in figure 1 .
+The structure is composed of two wideband printed FSS elements [ 33 ] arranged as shown: unconnected rectangular loop and unconnected printed cross inside this loop.
+The structure is backed by a grounded lossy FR-4 dielectric ( ε = 4.4 - j × 0.11) with thickness 1.6 mm (~ Λ /35).
+When a plane wave is incident on this structure, it will reflect or absorb the power depending on the mismatch in impedance to that of the free space.
+The reflection coefficient ( S ) of this structure is frequency dependent as given by equation ( 1 ):- < tex-math > < ?CDATA \begin{eqnarray}{{S}}_{11}(\omega )=\tfrac{{Z}_{{\rm{s}}}(\omega )-{\eta }_{0}}{{Z}_{{\rm{s}}}(\omega )+{\eta }_{0}},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:msub> <mml:mrow> <mml:mi mathvariant="italic">S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="false"> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>Z</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">s</mml:mi> </mml:mrow> </mml:msub> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>-</mml:mo> <mml:msub> <mml:mrow> <mml:mi>η</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>Z</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">s</mml:mi> </mml:mrow> </mml:msub> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>+</mml:mo> <mml:msub> <mml:mrow> <mml:mi>η</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> </mml:mfrac> </mml:mstyle> <mml:mo>,</mml:mo> </math> where Z ( ω ) and η ( ω ) are impedance of the structure and free space at angular frequency, ' ω ', respectively.
+Using the electromagnetic absorption theory, the absorptance ( A ( ω )) is related to reflectance \( < tex-math > < ?CDATA ({| {S}_{11}(\omega )| }^{2})? > < /tex-math > \)(|S11(ω)|2) and transmittance \( < tex-math > < ?CDATA ({| {S}_{21}(\omega )| }^{2})? > < /tex-math > \)(|S21(ω)|2) as given by- < tex-math > < ?CDATA \begin{eqnarray}A(\omega )=1-{(| {S}_{11}(\omega )| )}^{2}-{(| {S}_{21}(\omega )| )}^{2}.\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mi>A</mml:mi> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn> <mml:mo>-</mml:mo> <mml:msup> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">|</mml:mo> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">|</mml:mo> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mn>2</mml:mn> </mml:msup> <mml:mo>-</mml:mo> <mml:msup> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">|</mml:mo> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>21</mml:mn> </mml:mrow> </mml:msub> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">|</mml:mo> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mn>2</mml:mn> </mml:msup> <mml:mo>.</mml:mo> </math>
+Since this structure is backed by copper laminate, transmission will be zero \( < tex-math > < ?CDATA (| {S}_{21}(\omega )| =0)? > < /tex-math > \)(|S21(ω)|=0) and hence- < tex-math > < ?CDATA \begin{eqnarray}A(\omega )=1-{(| {S}_{11}(\omega )| )}^{2}.\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mi>A</mml:mi> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn> <mml:mo>-</mml:mo> <mml:msup> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">|</mml:mo> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mi>ω</mml:mi> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">|</mml:mo> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mn>2</mml:mn> </mml:msup> <mml:mo>.</mml:mo> </math>
+At the resonance frequency ( ω ), the impedance of the structure \( < tex-math > < ?CDATA ({Z}_{{\rm{s}}}({\omega }_{0}))? > < /tex-math > \)(Zs(ω0)) matches to that of free space impedance ( η ) and the reflected power ( S ( ω )) becomes zero.
+This will result in maximum absorptivity ( A ( ω )).
+The reflection coefficient of the structure is obtained by simulating the unit cell of the structure with appropriate boundary conditions using frequency domain solver in CST Microwave Studio.
+Under normal incidence, the structure exhibits two absorption peaks of 99.79% and 97.75% at 5.25 GHz and 5.37 GHz, respectively as shown in figure 2 (a).
+The Smith chart is shown in figure 2 (b).
+It indicates that at 5.25 GHz, the real part of impedance is nearly equal to free space impedance and the imaginary part is negligible and it results in nearly 100% (99.79%) absorption.
+At 5.37 GHz, the real part of impedance is greater than that of free space and it has also imaginary component which results in reduction in absorption (97.75%).
+The bandwidth of operation is specified in terms of FWHM, which can be expressed as- < tex-math > < ?CDATA \begin{eqnarray}{\rm{FWHM}}={{f}}_{2}-{{f}}_{1},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mi mathvariant="normal">FWHM</mml:mi> <mml:mo>=</mml:mo> <mml:msub> <mml:mrow> <mml:mi mathvariant="italic">f</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> </mml:mrow> </mml:msub> <mml:mo>-</mml:mo> <mml:msub> <mml:mrow> <mml:mi mathvariant="italic">f</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>1</mml:mn> </mml:mrow> </mml:msub> <mml:mo>,</mml:mo> </math> where f and f are upper and lower frequencies at which 50% of absorption is occurring.
+Here, FWHM bandwidth observed is 0.41 GHz (from 5.13 to 5.55 GHz).
+To get an insight to the resonating nature of the structure, the surface current distributions at these peak absorption frequencies are plotted in figure 3 .
+From figures 3 (a) and (b), it is evident that the printed cross is responsible for the absorption peak at 5.255 GHz and the loop is contributing for the absorption at 5.37 GHz.
+These closely spaced resonance frequencies results in bandwidth enhancement.
+Due to the electric resonance phenomenon, the surface currents are strong along the direction of electric field on the top metallic surface.
+The surface current on the bottom metallic plate is in opposite direction as that of top surface and will form circulating loop around the magnetic_field resulting in magnetic resonance, as shown in figures 3 (a)-(d).
+The top metallic geometry and thickness of the dielectric substrate are the important parameters for the excitation of strong electromagnetic resonance which will result in maximum absorption.
+Figure 4 shows the absorptivity calculated at normal incidence for the incident wave at different polarizations.
+The angular stability of the structure is also studied and it is observed that the performance is almost stable for the incident angle (θ) ranging from 0° to 40° as shown in figures 5 (a) and (b).
+__SECTION__ Modified structure for bandwidth enhancement.
+The elements designed for different resonance frequencies are arranged as a 2 × 2 array to form the single unit cell, as shown in figure 6 .
+For the new wideband array, the cells 1 and 2 are identical with cells 4 and 3, respectively.
+The absorption peaks of cell-1 and cell-2 are overlapping so that the combined response is as shown in figure 7 (a).
+The absorption peaks are observed at 5.06, 5.245 and 5.32 GHz with absorptivity of 92.52%, 99.45% and 99.77%.
+The FWHM bandwidth is increased to 0.576 GHz (4.974-5.55 GHz).
+The impedance at resonance frequencies are depicted by Smith chart as in figure 7 (b).
+It indicates that when the real part of the impedance of the structure is equal to free space and the imaginary part has zero value, it will result in maximum absorption.
+The impedance mismatch between the structure and free space results in reflection and thus a reduction in absorption.
+The absorption mechanism of the structure is due to the strong electromagnetic resonances at the absorption frequecies as explained in the above section.
+The effective medium theory approach can also be used to investigate the absorption mechanism.
+The reflection and transmission parameter of the structure are utilized to calculate the effective parameters of the structure.
+It is considered that the substrate and FSS elements are equivalent to an isotropic and homogeneous effective medium.
+Since the structure is backed by the ground plane, there will not be any transmission and the effective parameters cannot be computed directly.
+Small perforations or cuts are made on the ground plane of the unit cell to obtain finite S [ 31 , 32 ].
+The cuts are very small and have neglible effect on S .
+The ground plane of the structure with cuts is shown in figure 8 .
+The simulated response of the structure with metal ground plane and perforated ground plane is shown in table 1 .
+It is noted that the frequency of absorption is slightly changed by perforation, but the absorptivity is not much affected.
+When a plane wave is incident on the structure, the normalized input impedance ( Z ) and effective refractive index ( n ) are related to thickness of the substrate ( h ), free space wave vector ( k ) and S -parameters as- < tex-math > < ?CDATA \begin{eqnarray}Z=\pm \sqrt{\tfrac{{(1+{S}_{11})}^{2}-{{S}_{21}}^{2}}{{(1-{S}_{11})}^{2}-{{S}_{21}}^{2}}},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mi>Z</mml:mi> <mml:mo>=</mml:mo> <mml:mo>±</mml:mo> <mml:msqrt> <mml:mrow> <mml:mstyle displaystyle="false"> <mml:mfrac> <mml:mrow> <mml:msup> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>+</mml:mo> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mn>2</mml:mn> </mml:msup> <mml:mo>-</mml:mo> <mml:msup> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>21</mml:mn> </mml:mrow> </mml:msub> <mml:mn>2</mml:mn> </mml:msup> </mml:mrow> <mml:mrow> <mml:msup> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>-</mml:mo> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mn>2</mml:mn> </mml:msup> <mml:mo>-</mml:mo> <mml:msup> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>21</mml:mn> </mml:mrow> </mml:msub> <mml:mn>2</mml:mn> </mml:msup> </mml:mrow> </mml:mfrac> </mml:mstyle> </mml:mrow> </mml:msqrt> <mml:mo>,</mml:mo> </math> < tex-math > < ?CDATA \begin{eqnarray}n=\tfrac{1}{{k}_{0}h}\{[{\rm{I}}{\rm{m}}[\mathrm{ln}({{\rm{e}}}^{{\rm{j}}n{k}_{0}h})]+2m\pi ]-{\rm{j}}[{\rm{R}}{\rm{e}}[\mathrm{ln}({{\rm{e}}}^{{\rm{j}}n{k}_{0}h})]]\},\,{\rm{where}}\, \mbox{ and DiacriticalGrave;} m\mbox{'}\,{\rm{is}}\,{\rm{an}}\,{\rm{integer}},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mrow> <mml:mi>n</mml:mi> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="false"> <mml:mrow> <mml:mfrac> <mml:mrow> <mml:mn>1</mml:mn> </mml:mrow> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>k</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> <mml:mi>h</mml:mi> </mml:mrow> </mml:mfrac> </mml:mrow> </mml:mstyle> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">{</mml:mo> <mml:mrow> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">[</mml:mo> <mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">I</mml:mi> <mml:mi mathvariant="normal">m</mml:mi> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">[</mml:mo> <mml:mrow> <mml:mi>ln</mml:mi> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:msup> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">j</mml:mi> </mml:mrow> <mml:mi>n</mml:mi> <mml:msub> <mml:mrow> <mml:mi>k</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> <mml:mi>h</mml:mi> </mml:mrow> </mml:msup> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">]</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>+</mml:mo> <mml:mn>2</mml:mn> <mml:mi>m</mml:mi> <mml:mi>Π</mml:mi> </mml:mrow> <mml:mo stretchy="false">]</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>-</mml:mo> <mml:mrow> <mml:mi mathvariant="normal">j</mml:mi> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">[</mml:mo> <mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">R</mml:mi> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> </mml:mrow> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">[</mml:mo> <mml:mrow> <mml:mi>ln</mml:mi> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:msup> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">j</mml:mi> </mml:mrow> <mml:mi>n</mml:mi> <mml:msub> <mml:mrow> <mml:mi>k</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> <mml:mi>h</mml:mi> </mml:mrow> </mml:msup> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">]</mml:mo> </mml:mrow> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">]</mml:mo> </mml:mrow> </mml:mrow> </mml:mrow> <mml:mo stretchy="false">}</mml:mo> </mml:mrow> </mml:mrow> <mml:mo>,</mml:mo> <mml:mspace width=".25em"/> <mml:mrow> <mml:mi mathvariant="normal">where</mml:mi> </mml:mrow> <mml:mspace width=".25em"/> <mml:mo>'</mml:mo> <mml:mi>m</mml:mi> <mml:mo>'</mml:mo> <mml:mspace width=".25em"/> <mml:mrow> <mml:mi mathvariant="normal">is</mml:mi> </mml:mrow> <mml:mspace width=".25em"/> <mml:mrow> <mml:mi mathvariant="normal">an</mml:mi> </mml:mrow> <mml:mspace width=".25em"/> <mml:mrow> <mml:mi mathvariant="normal">integer</mml:mi> </mml:mrow> <mml:mo>,</mml:mo> </mml:mrow> </math> < tex-math > < ?CDATA \begin{eqnarray}{{\rm{e}}}^{{\rm{j}}n{k}_{0}h}=\tfrac{{S}_{21}}{1-{S}_{11}\tfrac{Z-1}{Z+1}}.\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:msup> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">j</mml:mi> <mml:mi>n</mml:mi> <mml:msub> <mml:mrow> <mml:mi>k</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> <mml:mi>h</mml:mi> </mml:mrow> </mml:msup> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="false"> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>21</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>-</mml:mo> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mstyle displaystyle="false"> <mml:mfrac> <mml:mrow> <mml:mi>Z</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> <mml:mrow> <mml:mi>Z</mml:mi> <mml:mo>+</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> </mml:mfrac> </mml:mstyle> </mml:mrow> </mml:mfrac> </mml:mstyle> <mml:mo>.</mml:mo> </math> The effective electromagnetic parameters of the medium such as effective permittivity and permeability can be calculated as- < tex-math > < ?CDATA \begin{eqnarray}{\varepsilon }_{{\rm{e}}{\rm{f}}{\rm{f}}}=\displaystyle \frac{n}{Z},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:msub> <mml:mrow> <mml:mi>ε</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> </mml:mrow> </mml:msub> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="true"> <mml:mfrac> <mml:mi>n</mml:mi> <mml:mi>Z</mml:mi> </mml:mfrac> </mml:mstyle> <mml:mo>,</mml:mo> </math> < tex-math > < ?CDATA \begin{eqnarray}{\mu }_{{\rm{e}}{\rm{f}}{\rm{f}}}=nZ.\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:msub> <mml:mrow> <mml:mi>µ</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> </mml:mrow> </mml:msub> <mml:mo>=</mml:mo> <mml:mi>n</mml:mi> <mml:mi>Z</mml:mi> <mml:mo>.</mml:mo> </math>
+At perfect absorption (100%) frequencies, the impedance of the strcuture matches to that of free space and the real and imaginary part of normalized input impedance will be 1 and 0, respectively.
+This will results in matching of real and imaginary parts of effective permittivity to that of permability values.
+The real and imaginary part of extracted effective permittivity and permeability values are depicted in figures 9 (a) and (b), respectively.
+The enlarged view of the plot in the absorption frequency range is given in inset.
+These parameters can be used to describe the absorption mechansim of the structure.
+At 5.06 GHz, the imaginary part of effective permittivty and and permeability are same, but the real parts have great difference resulting in reduction in absorption (92.52%).
+At 5.24 GHz, the difference in real part of permittivity and permeability is less and the imaginary parts are matching, resulting in improvement in absorption (99.45%).
+At 5.32 GHz, the real part of permittivty and permeabilty are matching and the difference in imaginary parts are neglible, which will results in further improvement in absorption (99.77%).
+The polarization sensitivity of the structure is also studied and is shown in figure 10 .
+The structure is showing absorptivity of more than 80% for all the polarization angles ( φ ) with negligible change in FWHM bandwidth.
+The angular stability of the structure is also studied for TE and TM polarizations and depicted in figures 11 (a) and (b).
+The structure exhibits its angular stability up to 60° with FWHM of 0.576 GHz.
+The absorptivity is gradually decreasing with increase in incident angle.
+The performance of the structure on lossless dielectric (tan Δ = 0) is depicted in figure 12 .
+The structure reflects all the incident power and the phase response is showing AMC characteristics.
+This proves that dielectric loss is the main factor contributing for the absorption performance.
+The characteristics of proposed absorber is compared with previously reported absorbers and is shown in table 2 .
+It indicates that even though the unit cell dimension of the proposed structure is greater than half the wavelength of operation, it provides maximum FWHM bandwidth with optimum thickness as compared to other proposed works.
+__SECTION__ Results and discussion.
+The proposed structure consisting of 7 × 7 unit cells is fabricated on a 300 mm × 300 mm FR-4 sheet having thickness 1.6 mm.
+The photograph of the fabricated structure and the enlarged view of unit cell is given in figure 13 .
+The reflection from the structure is measured using two wideband horn antennas as transmitter and receiver as shown in figure 14 .
+The measurement is carried out in an anechoic environment using VNA R and amp; S ZVB20.
+Initially, the reflected power from the identical sized metal plate is measured as reference for the normalization of scattering and diffraction losses.
+Then the reflected power from the structure is measured and the calculated absorptivity is depicted in figure 15 .
+The peak absorptions are observed at 5.055 GHz, 5.195 GHz and 5.31 GHz with absorptivity 99.73%, 99.9% and 99%, respectively.
+The measured FWHM bandwidth is 0.657 GHz (from 4.893 to 5.55 GHz).
+The variation between measurement and simulation results can be accounted for change in permittivity of commercially available substrate or fabrication tolerance.
+The polarization sensitivity of the structure is measured by rotating the horn antennas along the axis with a step size of 30° and the result is depicted in figure 16 .
+The structure exhibits good absorptivity for all the polarization angles and the results are in good agreement with the simulation.
+The FWHM bandwidth also remains unchanged.
+The angular stability of the structure is also measured for different angles of incidence obtained by moving the Tx and Rx horn antennas around the structure.
+The incident angle is varied from 0° to 60° and the figure 17 shows that the structure exhibits good absorptivity for the incident angles up to 40°.
+It is observed that there is a degradation in absorption performance for the incident angles above 40°.
+These results also agree well with simulation.
+These types of absorber are mainly employed for the RCS reduction of targets in war field.
+The target includes vehicles, buildings etc.
+Usually, antennas are placed over these types of targets for communication.
+The use of periodic structures like FSS and metamaterial absorbers for the RCS reduction of antenna without compromising its characteristics is an area of major interest by several researchers [ 34 - 37 ].
+Here, the use of this absorber for the RCS reduction of a patch antenna is studied.
+An antenna with dimension 17 mm × 12.5 mm is designed on a grounded Fr-4 dielectric having thickness 1.6 mm to resonate at 5.266 GHz.
+The coaxial probe feed position is selected as 3.125 mm away from the center for proper matching.
+The antenna is surrounded by absorbing array as shown in figure 18 .
+Some spacing (13.75 mm × 11.5 mm) between antenna and the absorber is given for the proper arrangement.
+The effect of absorber on the antenna response is shown in figure 19 .
+The reflected power from the antenna surrounded by absorber is very less as compared to that of antenna with PEC ground plane due to the absorption characteristics of the structure.
+__SECTION__ Conclusion.
+An ultrathin ( Λ /35) mematerial absorber with enhanced bandwidth and angular stability is proposed in this article.
+The unit cell consists of a 2 × 2 array of wideband absorber elements on a grounded FR4 dielectric substrate having thickness 1.6 mm.
+The structure exhibits three peak absorptions of 99.73%, 99.9% and 99% at 5.055 GHz, 5.195 GHz and 5.31 GHz, respectively and results in wide bandwidth.
+It exhibits good polarization insensitivity and angular stability up to 40°.
+The effective medium parameters are retrieved to investigate the absorption mechanism and it is observed that these parameters also validate the absorption characteristics.
+A prototype is fabricated and the performance of the structure for absorption and bandwidth enhancement is measured for different polarizations and oblique incidence and these results are in good agreement with the simulations.
+Further enhancement of bandwidth can be made by increasing the number of elements in array such that these elements have overlapping resonance frequencies.
+The application of this proposed structure in RCS reduction of antennas is also validated by fabricating an antenna surrounded by the absorber.
+It is verified that the performance of the antenna is not degraded and reflected power from the antenna with absorber is less than -10 dB as compared to the antenna with PEC ground plane.

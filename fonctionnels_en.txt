@@ -1,0 +1,422 @@
+#===============================================================================
+#  Copyright (C) 2020 JUAN MANUEL TORRES MORENO & PATRICIA VELAZQUEZ MORALES
+#  ------------------------------------------------------------------- 
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 2
+#  of the License, or any later version.
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+#  ------------------------------------------------------------------- 
+#  Contact : JUAN-MANUEL TORRES MORENO / LIA-UNIVERSITE D'AVIGNON
+#            BP 1228  84911 AVIGNON  CEDEX 09  FRANCE
+#            juan-manuel.torres@univ-avignon.fr
+# --------------------------------------------------------------------------+
+# Mots fonctionels english						 |
+# Version	: 4.2.2							 |
+# Creation	: 26/05/2005						 |
+# Modification	: 22/10/2020 						 |
+# Codigo   : unicode                             			 |
+# --------------------------------------------------------------------------+
+###########	2018.10.19
+et
+al
+conclusion
+keywords
+abstract
+title
+inline
+formula
+figure
+study
+table
+
+###########
+# A       #
+###########
+a
+about
+above
+according
+across
+actually
+additionally
+after
+afterwards
+again
+against
+ago
+all
+almost
+alone
+along
+already
+also
+although
+always
+am
+among
+amongst
+an
+and
+another
+any
+anybody
+anyhow
+anyone
+anytime
+anything
+anywhere
+anyway
+are
+around
+as
+at
+###########
+# B       #
+###########
+be
+became
+because
+become
+becomes
+becoming
+been
+before
+beforehand
+behind
+begin
+beginning
+behind
+being
+below
+beside
+besides
+best
+better
+between
+beyond
+billion
+both
+bow
+but
+by
+###########
+# C       #
+###########
+can
+cannot
+co
+corp
+commonly
+consequently
+could
+###########
+# CH      #
+###########
+cheers
+###########
+# D       #
+###########
+did
+do
+does
+down
+during
+###########
+# E       #
+###########
+each
+eg
+either
+else
+elsewhere
+end
+ending
+enough
+etcetera
+etc
+even
+ever
+every
+everybody
+everyone
+everything
+everywhere
+except
+###########
+# F       #
+###########
+far
+few
+first
+for
+forever
+formerly
+from
+further
+###########
+# G       #
+###########
+generally
+###########
+# H       #
+###########
+had
+has
+have
+he
+hence
+her
+hers
+herself
+here
+hereby
+hereafter
+hereby
+herein
+hereupon
+him
+himself
+his
+ho
+how
+however
+hum
+###########
+# I       #
+###########
+i
+if
+in
+inc
+indeed
+instead
+into
+is
+it
+its
+itself
+###########
+# L       #
+###########
+last
+later
+latterly
+least
+less
+let
+like
+likely
+ltd
+little
+###########
+# M       #
+###########
+made
+make
+makes
+many
+markedly
+may
+maybe
+me
+meantime
+meanwhile
+mine
+might
+miss
+more
+moreover
+most
+mostly
+mr
+mrs
+ms
+much
+must
+my
+myself
+mz
+###########
+# N       #
+###########
+namely
+near
+neither
+never
+nevertheless
+next
+no
+nobody
+none
+nonetheless
+not
+nor
+nothing
+now
+nowhere
+###########
+# O       #
+###########
+of
+off
+often
+oh
+on
+once
+one
+only
+onto
+or
+other
+others
+our
+ours
+ourselves
+out
+over
+overall
+own
+###########
+# P       #
+###########
+per
+please
+perhaps
+###########
+# R       #
+###########
+rather
+recent
+recently
+really
+###########
+# S       #
+###########
+same
+seem
+seemed
+seeming
+seems
+says
+several
+shall
+she
+should
+since
+so
+some
+somehow
+somebody
+someone
+something
+sometimes
+still
+stop
+such
+###########
+# T       #
+###########
+taking
+than
+thanks
+that
+the
+their
+theirs
+them
+themselves
+then
+thence
+there
+thereby
+therefore
+therein
+thereupon
+these
+they
+thirty
+this
+those
+though
+through
+throughout
+thru
+thus
+to
+together
+too
+toward
+towards
+###########
+# U       #
+###########
+under
+undoubtedly
+unless
+unlike
+unlikely
+until
+up
+upon
+us
+used
+using
+usually
+###########
+# V       #
+###########
+very
+via
+###########
+# W       #
+###########
+was
+we
+well
+were
+what
+whatever
+when
+whence
+whenever
+where
+whereas
+whereby
+wherein
+whereupon
+wherever
+whether
+which
+while
+who
+whoever
+whom
+whomever
+whose
+whole
+why
+will
+with
+without
+would
+wow
+###########
+# Y       #
+###########
+yes
+yet
+you
+your
+yours
+yourself
+yourselves
+###########
+# Z       #
+###########

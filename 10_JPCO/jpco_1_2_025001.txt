@@ -1,0 +1,103 @@
+TYPE	Paper
+DOI	http://doi.org/10.1088/2399-6528/aa83fa
+JOURNAL	Journal of Physics Communications
+DATE	06/09/2017
+AUTHOR	 Sadowski, P; Radics, B; Ananya, Yamazaki, Y; Baldi, P; 	 
+ADDRESS	1 Department of Computer Science, University of California , Irvine, CA 92617, United States of America > 2 Atomic Physics Laboratory, RIKEN, Saitama 351-0198, Japan > 3 ETH Zurich, Institute for Particle Physics , CH-8093 ZÜrich, Switzerland > 
+TITLE	Efficient antihydrogen detection in antimatter physics by deep learning
+ACRONYMS	Asacusa Micromegas Tracker (AMT) ; Under The Curve (AUC) ; Vertex Finding (VF) ; 
+KEYWORDS	 antimatter; antihydrogen; deep learning
+ABSTRACT	Antihydrogen is at the forefront of antimatter research at the CERN Antiproton Decelerator.
+ABSTRACT	Experiments aiming to test the fundamental CPT symmetry and antigravity effects require the efficient detection of antihydrogen annihilation events, which is performed using highly granular tracking detectors installed around an antimatter trap.
+ABSTRACT	Improving the efficiency of the antihydrogen annihilation detection plays a central role in the final sensitivity of the experiments.
+ABSTRACT	We propose deep learning as a novel technique to analyze antihydrogen annihilation data, and compare its performance with a traditional track and vertex reconstruction method.
+ABSTRACT	We report that the deep learning approach yields significant improvement, tripling event coverage while simultaneously improving performance in terms of AUC by 5%.
+__SECTION__ Introduction.
+In recent years numerous experiments have successfully trapped, or formed a beam of, antihydrogen atoms.
+These experiments aim to test CPT symmetry by comparing the properties of the antihydrogen atom to those of the hydrogen atom [ 1 - 4 ], or test the effects of gravity on antimatter [ 5 - 7 ].
+Antihydrogen is produced either by injecting antiproton and positron plasmas into cryogenic electro-magnetic traps where three-body recombination takes place ( \( < tex-math > < ?CDATA \bar{{\rm{p}}}+2{e}^{+}\to \bar{{\rm{H}}}+{e}^{+}? > < /tex-math > \)p¯+2e+⇒H¯+e+ ), or by the charge exchange processes between positronium, antiproton, and antihydrogen ( \( < tex-math > < ?CDATA {\mathrm{Ps}}^{(* )}+\bar{{\rm{p}}}\to \bar{{\rm{H}}}+{e}^{-}? > < /tex-math > \)Ps(*)+p¯⇒H¯+e- and \( < tex-math > < ?CDATA \bar{{\rm{H}}}+\mathrm{Ps}\to {\bar{{\rm{H}}}}^{+}+{e}^{-}? > < /tex-math > \)H¯+Ps⇒H¯++e- ).
+In most cases, antihydrogen production is detected by its annihilation signature whereby several charged pions are emitted from the annihilation vertex [ 8 ].
+These are distinguished from cosmic or instrumental background events using the hit multiplicity and the inferred positions of the tracks and annihilation vertex.
+Previous experiments have detected trapped antimatter annihilation events using algorithms specifically developed for tracking and vertex-finding [ 9 - 15 ], predominantly adopted from high-energy physics (HEP).
+However, antimatter trap experiments are not designed for high-resolution and high-efficiency tracking performance; the necessary layers of vacuum chamber walls, multi-ring electrodes, and thermal isolation limits the resolution of the detector and the effectiveness of these algorithms.
+Therefore, the vertex-reconstruction approach may not be optimal for detecting antihydrogen event signals in this setting.
+We present a machine learning approach for analyzing data from antimatter trap experiments that does not require explicit vertex reconstruction.
+Specifically, we propose deep learning with artificial neural networks as a strategy to identify antihydrogen annihilation signatures from low-level detector data alone.
+This approach has the advantage of being able to exploit subtle and previously-unrecognized characteristics in the data, as demonstrated in Higgs-search and Higgs-decay studies from HEP [ 16 - 18 ].
+We train our system using Monte Carlo simulated data to distinguish between antihydrogen-like signal and antiproton background annihilation events, and compare the performance to a traditional track and vertex reconstruction method.
+The specific use case presented in this paper is the ASACUSA antihydrogen experiment [ 4 ], whose aim is to directly compare the ground-state hyperfine transition frequency of hydrogen with that of antihydrogen-a test of the CPT-invariance principle.
+Measurements of the antihydrogen hyperfine transition frequency are performed by measuring the rate of antihydrogen atom production in a Penning-Malmberg trap while controlling the antiproton injection conditions, the overlap time while mixing antimatter plasmas, and other key parameters which allow us to constrain the three-body recombination yield and the level population evolution time of the formed antiatoms [ 19 ].
+Thus, the sensitivity of the experiment depends directly on the efficient detection of antihydrogen annihilations.
+Other antihydrogen experiments face similar challenges.
+Although the background processes or event topology might be different, classifying annihilations in a cryogenic environment with significant material budget is a common problem.
+Therefore, advances in single annihilation event classification in ASACUSA could potentially lead to performance improvements in other experiments.
+__SECTION__ Monte Carlo simulation and annihilation event reconstruction.
+The ASACUSA experiment traps charged particles (antiprotons and positrons) on the central axis using electro-magnetic_fields.
+When a neutral antihydrogen atom is produced (predominately via three-body recombination of antiprotons and positrons), it may escape these trapping fields and annihilate on the inner wall of the trap, emitting charged pions that can be detected.
+However, continuous annihilation of trapped antiprotons on residual gas atoms produces background annihilation events that emit the same pions.
+The latter tend to be emitted from the central axis, rather than the inner wall, so we can distinguish between antihydrogen and antiproton events if the position of the annihilation can be inferred from the detector data.
+The pions are detected by the Asacusa Micromegas Tracker (AMT) [ 15 ], which consists of a full-cylinder layer of plastic trigger scintillator bars sandwiched in between two, half-cylinder, curved micro-strip pattern gaseous detector layers of Micromegas technology [ 20 , 21 ].
+In the typical vertex-finding approach, each trigger event is processed with a track and vertex reconstruction algorithm, proceeding as follows.
+First, the single detector channels are searched for entries above threshold, and neighboring channels are iteratively clustered to form hits.
+The detected hits are used to form and fit tracks, using a Kalman-filtering algorithm [ 22 ].
+After fitting all hit pair combinations in an event, the track candidates are filtered by their compatibility with the known antiproton cloud position.
+The filtered track candidates are then paired, and their three-dimensional point of closest approach is assigned as the vertex position.
+Finally, event classification is performed based on the radial distance of the reconstructed vertex closest to the central axis.
+In order to test the ability of this algorithm to discriminate between signal and background annihilations, Monte Carlo simulations were performed to produce event data that reflect the realistic conditions in the ASACUSA experiment.
+The Geant4 toolkit [ 23 ] was used to simulate the antihydrogen and antiproton annihilation processes, the trap environment, and the AMT.
+The full material budget of the cryogenic vacuum trap was used in order accurately model the effects of multiple Coulomb scattering on the emitted pions [ 24 ] before they reached the surrounding detector.
+Micromegas single hit resolution was simulated with Garfield++, Magboltz, and Heed [ 25 , 26 ] for the response of charged pions of \( < tex-math > < ?CDATA p\simeq 100\,\mathrm{MeV}? > < /tex-math > \)p≃100MeV /c momentum, and was found to be much better ( \( < tex-math > < ?CDATA {\sigma }_{\mathrm{hit}}\simeq 250? > < /tex-math > \)Σhit≃250 \( < tex-math > < ?CDATA \mu {\rm{m}}? > < /tex-math > \)µm ) than the amount of smearing of the pion track positions ( \( < tex-math > < ?CDATA {\sigma }_{\mathrm{Coul}.}\simeq 2? > < /tex-math > \)ΣCoul.≃2 mm) due to Coulomb scattering when the pions reach the AMT detector.
+Using the detected hits, the reconstructed vertex position resolution was estimated to be \( < tex-math > < ?CDATA {\sigma }_{{vx}}\simeq 1? > < /tex-math > \)Σvx≃1 cm.
+The result of vertex-reconstruction on the simulated data is illustrated in figure 1 .
+In the ASACUSA experiment, tracking detector layers are only present in the upper half of the trap, which is reflected in the distribution of reconstructed vertices.
+The shape of the distribution also reflects the smearing of the position by 1 cm due to the Coulomb scattering of the charged pions in the trap material, and the heavy overlap in the class-conditional distributions of the radial distance \( < tex-math > < ?CDATA R=\sqrt{{X}^{2}+{Y}^{2}}? > < /tex-math > \)R=X2+Y2 .
+For the experiments performed in section 4 , probabilistic classification of events is performed by a simple neural network model with a single input, R , one hidden layer of 100 hyperbolic tangent units, and a logistic output unit that predicts the probability that an event was an antihydrogen atom versus an antiproton.
+__SECTION__ Deep learning approach.
+We propose a deep learning approach in which an artificial neural network is trained to classify annihilations directly from the raw detector data.
+This automated, end-to-end learning strategy can potentially identify discriminative information in the raw data that is typically discarded by the vertex-reconstruction algorithm.
+For example, this approach will provide predictions for events on which vertex-reconstruction fails, such as when only a single track can be reconstructed.
+Two design choices were made regarding the neural network architecture that address the geometry of the detector.
+First, data from micro-strips situated along the azimuth ( φ ) and axial ( Z ) dimensions are processed along separate pathways that are then merged by concatenating the hidden representations higher in the architecture.
+Second, each pathway consists of alternating 1D convolution and max-pooling layers, which repeat the same feature detectors (via weight-sharing) and pool activity from adjacent neurons.
+This design accounts for the translational invariances of the detector and reduces the total number of network parameters.
+The raw detector data consists of 1430 binary values from the two detector layers and two micro-strip orientations: 246 inner and 290 outer azimuthal strips, and 447 inner and 447 outer axial strips.
+The inner and outer detector layers are treated as two associated 'channels', where the outer azimuthal layer is downsampled with linear interpolation to match the dimensionality of the inner layer.
+A diagram of the network architecture is shown in figure 2 .
+__SECTION__ Results.
+One million annihilation events of each type were simulated and randomly divided into training (60%), validation (20%), and test subsets (20%).
+Because the detector only covers half of the trap, many pions escaped undetected, and the vertex finding (VF) algorithm failed on 75% of these events: 20% did not result in any detector hits; 7% had a hit in only one detector; and 48% had hits in both detectors but a vertex could not be reconstructed.
+Vertex reconstruction failed because either (1) there were not enough distinct hits to infer the presence of at least two tracks, or (2) the point of closest approach of the reconstructed tracks was greater than the threshold value of 1 cm.
+Thus, a direct performance comparison was only possible on the 25% of the test set events for which the VF algorithm succeeded, even though the deep learning approach provides a prediction for every event.
+Due to the complexity of the non-neutral plasma physics and atomic scattering processes, there is no physics model to our knowledge that would be able to predict the true axial distribution of the antihydrogen atoms in realistic experimental conditions.
+In the future, characterization of this distribution may lead to improved performance, but for the present analysis we train the classifier in such a way that the output is invariant to translations in the axial dimension.
+This was achieved by augmenting the training data, in which simulated antihydrogen annihilations occurred at Z = 100 cm (see figure 3 ), by randomly translating each event during training by t 'pixels' in the Z dimension, where t is sampled from the uniform distribution \( < tex-math > < ?CDATA t\sim U(-100,347)? > < /tex-math > \)t~U(-100,347) .
+The same augmentation was used on the validation and test sets to evaluate performance, but was the same on non-augmented data, indicating that the network learned Z -invariant features.
+The neural network was trained with a variety of hyperparameter combinations in order to optimize generalization performance on the validation set.
+These hyperparameters included the specifics of the network architecture shape.
+The best architecture has five 1D convolutional layers with kernel sizes 7-3-3-3-3 (the size of the receptive fields for neurons in each layer), channel sizes 8-16-32-64-128 (the number of distinct feature detectors in each layer), and rectified linear activation [ 27 ].
+In order to account for translational invariance, each convolution layer is followed by a max-pooling layer with pool size 2 and stride length 2 [ 28 ].
+The flattened representations from the two pathways are then concatenated and followed by two fully-connected layers of 50 and 25 rectified linear units, then a single logistic output unit with a relative entropy loss.
+During training, 50% dropout was used in the top two fully-connected layers to reduce overfitting [ 29 , 30 ].
+The model weights were initialized from a scaled normal distribution as suggested by He et al [ 31 ], then trained using the Adam optimizer [ 32 ] ( \( < tex-math > < ?CDATA {\beta }_{1}=0.9,{\beta }_{2}=0.999,\epsilon =1e-08? > < /tex-math > \)β1=0.9,β2=0.999,ε=1e-08 ) with mini-batch updates of size 100 and a learning rate that was initialized to 0.0001 and decayed by 1% at the end of each epoch.
+Training was stopped when the validation objective did not improve within a window of three epochs.
+The models were implemented in [ 33 ] and [ 34 ], and trained on a cluster of Nvidia Titan Black processors.
+Performance comparisons were made by plotting the receiver operating characteristic curve and summarizing the discrimination by calculating the area under the curve (AUC).
+Figure 4 shows that the deep neural network classifier outperforms the VF approach by a large margin on the test events for which a vertex could be reconstructed (0.87 versus 0.76 AUC).
+Remarkably, the deep neural network achieves 0.78 AUC on a disjoint set of events for which a vertex could not be reconstructed, and 0.82 AUC on the union set containing all events for which both detector layers were hit (not shown).
+This effectively triples the event coverage-to 73% of all events-while simultaneously improving the AUC by more than 0.05.
+These results clearly demonstrate that useful information contained in the raw data is being discarded by the VF algorithm, and that the deep learning approach is able to use this information to improve discrimination.
+Additional experiments evaluated the advantage of deep learning compared to 'shallow' machine learning with boosted decision trees and neural networks with only a single hidden layer.
+These experiments were performed on the non-augmented data, where the convolution and pooling layers provide less of an advantage for the DNN.
+Figure 5 shows that XGBoost [ 35 ] and shallow neural networks both perform better than the VF algorithm using the raw detector data (0.89 and 0.90 AUC on the same test events), but not as well as the DNN (0.92 AUC).
+The shallow network had 2000 hidden rectified linear units and was trained with 70% dropout in the hidden layer and the Adam optimizer ( \( < tex-math > < ?CDATA \alpha =0.0001,{\beta }_{1}=0.9,{\beta }_{2}=0.999,\epsilon =1e-8? > < /tex-math > \)α=0.0001,β1=0.9,β2=0.999,ε=1e-8 ); the hidden layer size, dropout probability, and learning rate were optimized based on validation performance.
+The XGBoost classifier had 100 trees with a maximum depth of 100 and minimum child weight of 10, and was trained with \( < tex-math > < ?CDATA \eta =0.1? > < /tex-math > \)η=0.1 , L2 regularization factor of 0.1, and feature sampling rate 0.5.
+__SECTION__ Conclusion.
+In summary, we report the first application of deep learning for the identification of antihydrogen annihilation events using realistic Monte Carlo simulations of both antihydrogen-like signals and antiproton background events.
+Moreover, we address the scenario in which classification must be translationally-invariant in the axial dimension to address systematic uncertainty in the experiment.
+The results demonstrate significant performance improvements compared to track and vertex reconstruction approaches in a scenario with limited detector resolution.
+Vertex reconstruction necessarily discards statistical information when fitting tracks, and the approach fails completely on all but 25% of events in our experiments.
+With the deep learning approach, an end-to-end neural network model extracts additional statistical information from the raw data, improving AUC from 0.76 to 0.87 on the same event subset.
+It also has far better coverage, achieving 0.82 AUC on the 73% of events in which both detector layers were hit.
+While we expect more modest performance gains in detectors with better resolution, the deep learning approach proposed here can easily be deployed to other ongoing antimatter experiments with different instruments.
+Furthermore, the ability to detect complex signals in high-dimensional data without relying on explicit track reconstruction potentially offers a new direction in the design of future detectors.
+Finally, the data used in this paper, comprising two million events, are publicly available from the machine learning in physics web portal: .

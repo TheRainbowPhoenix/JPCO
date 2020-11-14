@@ -1,0 +1,151 @@
+TYPE	Paper
+DOI	http://doi.org/10.1088/2399-6528/aa9fbd
+JOURNAL	Journal of Physics Communications
+DATE	10/01/2018
+AUTHOR	 Libi Mol, V A; Aanandan, C K; 	 
+ADDRESS	Department of Electronics, Cochin University of Science and Technology , Kerala, India > 
+TITLE	Experimental demonstration of the performance of flexible metamaterial absorber on planar and cylindrical surface
+ACRONYMS	Radar Absorbing Material (RAM) ; Radar Cross Section (RCS) ; 
+KEYWORDS	 conformal absorber; metamaterial; cylindrical surface; angular stability
+ABSTRACT	In this paper, an ultrathin polarization independent conformal metamaterial absorber for planar and cylindrical surface is presented.
+ABSTRACT	The proposed structure consists of a periodic array of truncated square patch element in the center with rectangular strips coupled to the edges.
+ABSTRACT	It is fabricated on low cost commercially available FR-4 substrate by photolithographic method and the performance of structure is studied for both planar and cylindrical surface configurations.
+ABSTRACT	The absorbing structure having a thickness of Λ/128, displays angular stability up to 40° for TE polarization and 60° for TM polarization in the planar configuration.
+ABSTRACT	In the cylindrical configuration, the performance depends on the radius of curvature, since different elements are illuminated at different angles.
+ABSTRACT	This aspect is also studied and reported with experimental results.
+__SECTION__ Introduction.
+Since the Second World War, different methods to reduce the radar cross section (RCS) of targets have been investigated by many researchers.
+The two main techniques employed for RCS reduction are target shaping and the use of radar absorbing material (RAM).
+The Salisbury screen is the one of the oldest RAM, which consist of a resistive sheet located at quarter wave distance above the conducting plate [ 1 ].
+But the main disadvantage of this configuration is its thickness and narrow bandwidth.
+The bandwidth of operation can be improved by using more layers of resistive sheets, forming Jaumann absorber [ 2 ] with increased thickness.
+Metamaterials are artificially engineered structures to exhibit properties that are not found in nature.
+They obtain these characteristics due to its geometrical structure rather than chemical composition [ 3 ].
+Researchers are exploiting metamaterials to design very thin absorbers, which can overcome the disadvantage of conventional absorbers.
+Metamaterial absorbers eliminate the reflected wave and absorb the transmitted wave through dielectric loss.
+Experimental demonstration of metamaterial absorber was first done by Landy et al in 2008 [ 4 ], which laid a foundation for the development of different types of absorbers.
+A polarization insensitive absorber based on split ring cross resonator is proposed for a maximum absorptivity of 99% at 10.91 GHz [ 5 ].
+Electric split ring resonator based dual band metamaterial absorber was reported with absorptivity of 97% and 99% at 11.15 GHz and 16.01 GHz, respectively [ 6 ].
+An ultrathin broadband metamaterial absorber based on a dual layer structure having good absorption above 90% between 8.85 and 14.17 GHz is reported in [ 7 ].
+The geometrical dimension of a three vertically stacked metal dielectric layers were manipulated to design triple-band, 3 and 10 dB polarization insensitive and wide angle absorbers [ 8 ].
+Ultra-thin polarization independent absorber using hexagonal interdigital metamaterial with 99% absorptivity at 11.35 GHz is reported by Lee et al [ 9 ].
+Ghosh et al reported another type of metamaterial absorber consisting of a periodic array of swastika-like structure having enhanced bandwidth having full width at half maximum of 0.68 GHz (10.04 - 10.72 GHz) [ 10 ].
+The metamaterial absorber consisting of a periodic arrangement of different scales of electric-field-coupled-LC (ELC) resonators are used for multiband operation [ 11 ].
+In addition to this, many researchers worked on the development of multiband and ultrathin planar metamaterial absorbers [ 12 - 15 ].
+But the practical application demands the conformal absorbers which can be applied on curved surfaces.
+So the researchers had started working on designing absorbers on flexible or very thin substrates.
+Due to the bending of the structure, the angle of incidence on each unit cell will be different.
+Based on this, absorber consisting of three different unit cells with 90% absorption at 0°, 30°, and 45° placed non-periodically in three different zones was proposed for curved surface [ 16 ].
+This design concept works well for single band of operation, but not for multiband or wideband absorbers.
+Dual band conformal absorber [ 17 ] consisting of a single type unit cell having good angular stability is proposed to avoid the design complexity of [ 16 ].
+A polarization sensitive dual band metamaterial absorber fabricated on a flexible polyimide dielectric layer with a laser ablation process is also reported [ 18 ].
+In this paper, we have presented an ultrathin bandwidth enhanced absorber consisting of a single type unit cell for planar and cylindrical surfaces.
+The unit cell consist of two different elements with overlapping resonances-rectangular strips at the four edges and the truncated square patch at the center, over a grounded FR4 substrate having thickness 0.2 mm ( Λ /128).
+The substrate used is of low cost and is commercially available.
+The simulation studies of the performance of the structure for planar surfaces is carried out by CST MW Studio-2016.
+The structure shows good angular stability up to 40° for TE polarization and 60° for TM polarized wave.
+The structure also exhibits polarization independent behavior for normal incidence due to the four fold symmetry.
+Next, the characteristics of this structure on a cylindrical surface is studied.
+Due to the bending of the structure, the performance of each element will be different when exposed to electromagnetic wave and hence the unit cell simulation cannot be carried out in this case.
+So the entire structure should be considered while simulation.
+The performance of the cylindrical structure for different radius of bending is also carried out and it indicates that the cylindrical absorber performance matches to that of plane structure with increase in radius of curvature.
+The overlapping resonance characteristics were also observed.
+A prototype of the structure is fabricated and its performance on planar and cylindrical surfaces were validated by measurements.
+These are in good agreement with simulation results.
+__SECTION__ Conformal metamaterial absorber design.
+Basic unit cell of the proposed structure is shown in figure 1 .
+It consist of two types of elements- truncated square patch at the center and rectangular strips at the edges.
+The structure is backed by grounded FR-4 ( ε r = 4.3- j *0.11) substrate having thickness 0.2 mm.
+When an electromagnetic wave is incident on the structure, it will not transmit any power ( S = 0) as it is backed by a metal ground plane.
+The structure will reflect or absorb the power depending on the impedance mismatch between the structure ( Z ) and free space ( η ).
+The reflection coefficient is related to these impedances as- < tex-math > < ?CDATA \begin{eqnarray}{S}_{11}=\displaystyle \frac{Z-\eta }{Z+\eta }.\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="true"> <mml:mfrac> <mml:mrow> <mml:mi>Z</mml:mi> <mml:mo>-</mml:mo> <mml:mi>η</mml:mi> </mml:mrow> <mml:mrow> <mml:mi>Z</mml:mi> <mml:mo>+</mml:mo> <mml:mi>η</mml:mi> </mml:mrow> </mml:mfrac> </mml:mstyle> <mml:mo>.</mml:mo> </math> The absorptance ( A ) is given by- < tex-math > < ?CDATA \begin{eqnarray}A=1-{S}_{11}^{2}.\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn> <mml:mo>-</mml:mo> <mml:msubsup> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> </mml:mrow> </mml:msubsup> <mml:mo>.</mml:mo> </math> At the resonant frequency, the impedance of the structure is matched to that of free space and will result in 100% absorption.
+__SECTION__ Flat structure.
+The simulation studies for planar configuration is carried out by frequency domain solver in CST MW studio.
+The boundary conditions set for the simulation are: unit cell in X , X Y and Y , electric in Z and floquet port in Z .
+Since the unit cell has two resonating elements, parametric studies has been carried out for the proper selection of dimensions so that it can give rise to overlapping resonances.
+The absorption performance of the structure for varying dimensions of the outer rectangular strip is given in figures 2 (a) and (b).
+The variation in absorptivity of the structure with respect to the dimension of the truncated patch is given in figures 3 (a) and (b).
+The optimum dimensions for overlapping resonance are l = 6 mm, m = 5 mm, a = 6 mm and b = 1.5 mm, giving absorptivity and reflection coefficient depicted as in figure 4 .
+It shows -10 dB bandwidth from 11.57 to 11.74 GHz (0.17 GHz).
+The structure provides maximum absorptivity of 99.4164% at 11.66 GHz with a full width half maximum (FWHM) bandwidth of 0.55 GHz.
+The absorption behavior of the structure can be explained by using effective medium theory.
+Based on effective medium theory, the effective impedance of the structure is due to the impedance of resonating elements and grounded dielectric.
+The effective permittivity ( ε ) and permeability ( µ ) are related to electric susceptibility ( χ ) and magnetic susceptibility ( χ ) by the following equations [ 19 , 20 ]. < tex-math > < ?CDATA \begin{eqnarray}{\chi }_{{\rm{E}}{\rm{S}}}=\displaystyle \frac{2* j}{{k}_{0}}\displaystyle \frac{{{S}}_{11}-1}{{{S}}_{11}+1},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>χ</mml:mi> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">E</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">S</mml:mi> </mml:mrow> </mml:mrow> </mml:msub> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="true"> <mml:mrow> <mml:mfrac> <mml:mrow> <mml:mn>2</mml:mn> <mml:mo>*</mml:mo> <mml:mi>j</mml:mi> </mml:mrow> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>k</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> </mml:mfrac> </mml:mrow> </mml:mstyle> <mml:mstyle displaystyle="true"> <mml:mrow> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi mathvariant="italic">S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi mathvariant="italic">S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mo>+</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> </mml:mfrac> </mml:mrow> </mml:mstyle> <mml:mo>,</mml:mo> </mml:mrow> </math> < tex-math > < ?CDATA \begin{eqnarray}{\chi }_{{\rm{M}}{\rm{S}}}=\displaystyle \frac{2* j}{{k}_{0}}\displaystyle \frac{{S}_{11}+1}{{S}_{11}-1},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>χ</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">M</mml:mi> <mml:mi mathvariant="normal">S</mml:mi> </mml:mrow> </mml:msub> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="true"> <mml:mrow> <mml:mfrac> <mml:mrow> <mml:mn>2</mml:mn> <mml:mo>*</mml:mo> <mml:mi>j</mml:mi> </mml:mrow> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>k</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>0</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> </mml:mfrac> </mml:mrow> </mml:mstyle> <mml:mstyle displaystyle="true"> <mml:mrow> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mo>+</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> </mml:mfrac> </mml:mrow> </mml:mstyle> <mml:mo>,</mml:mo> </mml:mrow> </math> < tex-math > < ?CDATA \begin{eqnarray}{\varepsilon }_{{\rm{e}}{\rm{f}}{\rm{f}}}=1+\displaystyle \frac{{\chi }_{{\rm{E}}{\rm{S}}}}{h},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>ε</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> </mml:mrow> </mml:msub> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn> <mml:mo>+</mml:mo> <mml:mstyle displaystyle="true"> <mml:mrow> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>χ</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">E</mml:mi> <mml:mi mathvariant="normal">S</mml:mi> </mml:mrow> </mml:msub> </mml:mrow> <mml:mrow> <mml:mi>h</mml:mi> </mml:mrow> </mml:mfrac> </mml:mrow> </mml:mstyle> <mml:mo>,</mml:mo> </mml:mrow> </math> < tex-math > < ?CDATA \begin{eqnarray}{\mu }_{{\rm{e}}{\rm{f}}{\rm{f}}}=1+\displaystyle \frac{{\chi }_{{\rm{M}}{\rm{S}}}}{h},\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>µ</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">e</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> <mml:mi mathvariant="normal">f</mml:mi> </mml:mrow> </mml:msub> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn> <mml:mo>+</mml:mo> <mml:mstyle displaystyle="true"> <mml:mrow> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>χ</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">M</mml:mi> <mml:mi mathvariant="normal">S</mml:mi> </mml:mrow> </mml:msub> </mml:mrow> <mml:mrow> <mml:mi>h</mml:mi> </mml:mrow> </mml:mfrac> </mml:mrow> </mml:mstyle> <mml:mo>,</mml:mo> </mml:mrow> </math> where k is the wavenumber in free space and ' h ' is the thickness of the substrate.
+This method for the extraction of parameter has a greater advantage over the conventional method since it does not require transmission parameter ( S ) for the calculation.
+The normalized input impedance of the structure can be calculated from the transmission ( S = 0) and reflection ( S ) parameters as:- < tex-math > < ?CDATA \begin{eqnarray}Z=\sqrt{\displaystyle \frac{{(1+{S}_{11})}^{2}-{S}_{21}^{2}}{{(1-{S}_{11})}^{2}-{S}_{21}^{2}}}=\displaystyle \frac{1+{S}_{11}}{1-{S}_{11}}.\end{eqnarray}? > < /tex-math > <mml:math display="block"> <mml:mi>Z</mml:mi> <mml:mo>=</mml:mo> <mml:msqrt> <mml:mrow> <mml:mstyle displaystyle="true"> <mml:mfrac> <mml:mrow> <mml:msup> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>+</mml:mo> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mn>2</mml:mn> </mml:msup> <mml:mo>-</mml:mo> <mml:msubsup> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>21</mml:mn> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> </mml:mrow> </mml:msubsup> </mml:mrow> <mml:mrow> <mml:msup> <mml:mrow> <mml:mrow> <mml:mo stretchy="false">(</mml:mo> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>-</mml:mo> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> <mml:mo stretchy="false">)</mml:mo> </mml:mrow> </mml:mrow> <mml:mn>2</mml:mn> </mml:msup> <mml:mo>-</mml:mo> <mml:msubsup> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>21</mml:mn> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> </mml:mrow> </mml:msubsup> </mml:mrow> </mml:mfrac> </mml:mstyle> </mml:mrow> </mml:msqrt> <mml:mo>=</mml:mo> <mml:mstyle displaystyle="true"> <mml:mfrac> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>+</mml:mo> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>-</mml:mo> <mml:msub> <mml:mrow> <mml:mi>S</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>11</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> </mml:mfrac> </mml:mstyle> <mml:mo>.</mml:mo> </math>
+At perfect absorption frequencies, the real part of the impedance will match to that of free space impedance and the imaginary part will have zero value.
+This will result in matching of effective permittivity and permeability values.
+The real and imaginary part of normalized impedance calculated using equation ( 5 ) and is depicted in figure 5 and it shows that at the maximum absorption frequency (11.66 GHz), the real part of normalized impedance is nearly equal to unity and imaginary part has approximately zero value.
+So this will result in 99.41% absorption rather than 100% absorption.
+The retrieved real and imaginary parts of effective permittivity and permeability of the structure for normal incidence are shown in figures 6 (a) and (b), respectively.
+The retrieved material parameters at 11.66 GHz is shown in table 1 .
+It indicates that the values of real part of effective permittivity and permeability are equal and negative, but there is slight variation in imaginary part of permittivity and permeability.
+So this can be account for the reduction in absorption rate.
+The surface current distribution of the structure at the overlapping resonance frequency (11.66 GHz) for TE and TM mode of excitation is simulated to understand the absorption phenomenon and is shown in figures 7 and 8 .
+For TE mode, the rectangular strip along the Y -axis is excited along with the inner truncated square as in figure 7 .
+It is noted that the current density along the edges is stronger resulting in electric resonance.
+The direction of surface current on the top surface is antiparallel to the current in the ground plane which will form circulating loop and results in magnetic resonance.
+The energy due to this electromagnetic resonance is dissipated due to the dielectric loss of the substrate and thus result in perfect absorption.
+For TM mode of excitation, the rectangular strips along the X -axis is excited as shown in figure 8 .
+The simulated reflection characteristics of the structure on a lossless dielectric is shown in figure 9 .
+The structure shows artificial magnetic conductor characteristics, i.e., it reflects all the incident wave with 0° reflection phase at resonance frequency.
+This indicates that the dielectric loss is the important factor for absorption performance.
+The polarization sensitivity of the structure is aslo studied and is given in figure 10 .
+The structure shows good absorption characteristics for all the polarization angle with a FWHM bandwidth of 0.55 GHz.
+The angular stability of the structure is also studied for both TE and TM polarized incident wave and is depicted in figures 11 (a) and (b).
+For TM polarized incident wave, the structure shows angular stability up to 60° without much change in FWHM.
+For TE polarized wave, the structure shows angular stability up to 40°.
+__SECTION__ Curved structure.
+Next, the performance of the structure on the cylindrical surface is studied.
+The performance depends on the curvature of the surface.
+When the radius of curvature is large as in figure 12 (a), the structure can accommodate a large number of unit cells and the angle of incidence on these unit cells will be within angular stability range (up to 40° for TE polarized wave and 60° for TM polarized wave) resulting in comparable absorption performance as that of planar structure.
+When the radius of curvature is decreased as in figure 12 (b), the wave will incident at different angles to different unit cells resulting in some deterioration in the absorption performance.
+As the radius of curvature decreases as in figure 12 (c), the number of unit cell on the surface will be less and the wave will incident at different angles on a single unit cell.
+This will results in unpredictable perfromance of the structure.
+These simulation studies cannot be carried out by considering the unit cell.
+So the entire structure is considered during simulation.
+The reflected power from both the metallic cylinder and structure wrapped around the metallic cylinder are simulated and their difference gives the actual reflected power from the cylindrical structure.
+First, performance of structure over a cylinder having radius = 55 mm is studied and the obtained results are shown in figure 13 (a).
+The structure provides -10 dB bandwidth from 10.96 to 11.35 GHz (0.39 GHz), which is more than that of the flat structure.
+The enhancement in bandwidth may be due to the difference in angle of incidence on the unit cells over the curved surface.
+The absorptivity of the structure is calculated and is given in figure 13 (b).
+The structure provides FWHM bandwidth of 1.26 GHz (10.73 - 11.99 GHz).
+It provides maximum absorptivity of 98.43% (11.12 GHz), which is less than that of planar structure.
+The decrease in absorption frequency may be due to the increase in effective thickness of the substrate on the curved edges.
+To evaluate the dependance of the curvature on the characteristics, different radii are considered and the response is shown in figure 14 .
+When the radius of curvature, r = 10 mm, the structure is not showing any absorption characteristics.
+The structure shows a reflection coefficient of -6.4 dB when r = 30 mm.
+The absorption frequency is shifting towards the planar response with increase in radius of curvature.
+When r = 70 mm, the structure provides -10 dB bandwidth of 0.23 GHz (11.17 - 11.4 GHz), which is less than that of structure with radius = 55 mm and more than that of planar structure.
+This variation in bandwidth may be attributed to the angle of incidence variation on different unit cells.
+The conformal structure exhibits incident angle independent absorption performance due to the rotational symmetry, as shown in figure 15 .
+The peformance of the conformal structure for different polazrization is studied and is shown in figure 16 , which indicates the polarization independent behavior of the cylindrical structure.
+The characteristics of proposed absorber is compared with previously reported conformal absorbers and is shown in table 2 .
+It indicates that it provides bandwidth enhanced absorption performance with optimum thickness as compared to other reported works.
+__SECTION__ Results and discussion.
+The structure with 27 × 27 unit cells is fabricated on a 300 mm × 300 mm FR-4 substrate having thickness 0.2 mm using photolithographic technique.
+The photograph of the fabricated prototype is shown in figure 17 (a).
+The measurements are taken in an anechoic environment using vector network analyzer R and amp; S ZVB20.
+The photograph of the measurement set up is given in figure 17 (b).
+It consist of transmitting and receiving antenna which can be revolved around the target placed at the center.
+The reflected power from metallic plate having same dimension is taken for normalization to avoid the cable, diffraction and scattering losses.
+The measured reflection characteristics of the flat structure for normal incidence is presented in figure 18 .
+The structure exhibits -10 dB bandwidth from 11.615 to 11.8 GHz and is in good agreement with simulated result.
+Figure 19 represents the measured polarization sensitivity of the absorber.
+These results are also in good agreement with simulations and indicates the polarization independent characteristic.
+The transmitting antenna is moved around the structure to measure the angular stability for TM and TE polarized wave incidence and the measured results are shown in figures 20 (a) and (b), respectively.
+The position of receiving antenna is adjusted to obtain the maximum reflected power from the metal plate.
+The structure shows angular stability up to 60° for TM polarized wave and up to 40° for TE polarized wave.
+These results are in good agreement with simulations.
+Next, the performance of the structure over the cylindrical surface is considered.
+The photographs of the cylinder (radius = 55 mm) and structure wrapped around the cylinder are shown in figures 21 (a) and (b), respectively.
+The reflected power from the metallic cylinder is taken for normalization.
+The measured reflected power from the cylindrical structure along with simulated result is shown in figure 22 .
+The structure provides -10 dB bandwidth from 11.25 to 11.4 GHz in measurement.
+The difference in measured and simulated results may be due to the misalignment of the structure over the metallic cylinder.
+__SECTION__ Conclusion.
+An ultrathin ( Λ /128) polarization independent conformal metamaterial absorber for planar and cylindrical surface is presented in this paper.
+The unit cell consist of two resonating elements with overlapping resonance.
+Due to the angular stability, this structure is suitable for both planar and cylindrical surface application.
+The performance of the structure for different radii of curvature of the cylinder is also studied.
+Prototype of the structure is fabricated and its performance on planar and cylindrical surfaces are validated by measurement.

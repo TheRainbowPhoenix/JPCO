@@ -1,0 +1,149 @@
+TYPE	Letter
+DOI	http://doi.org/10.1088/2399-6528/aa8ab8
+JOURNAL	Journal of Physics Communications
+DATE	26/09/2017
+AUTHOR	 Owerre, S A; 	 
+ADDRESS	Perimeter Institute for Theoretical Physics, 31 Caroline St. N., Waterloo, Ontario N2L 2Y5, Canada > 
+TITLE	Magnetic order in laser-irradiated kagome antiferromagnets
+ACRONYMS	Quantum Critical Point (QCP) ; 
+KEYWORDS	 geometrical frustration; kagome lattice; laser irradiation; Floquet formalism
+ABSTRACT	Dispersionless 'zero energy mode' is one of the hallmarks of frustrated kagomÉ antiferromagnets (KAFMs).
+ABSTRACT	It points to extensive classically degenerate ground-states.
+ABSTRACT	The 'zero energy mode' can be observed experimentally when lifted to a flat mode at finite energy by a strong intrinsic magnetic anisotropy.
+ABSTRACT	In this letter, we study the effects of irradiation of laser light on the KAFMs.
+ABSTRACT	We adopt the magnon picture without loss of generality.
+ABSTRACT	It is shown that circularly or linearly polarized light lifts the 'zero energy mode', stabilizes magnetic order, and induces energy gaps in the KAFMs.
+ABSTRACT	We find that the circularly polarized light-induced anisotropies have similar features as the intrinsic in-plane and out-of-plane Dzyaloshinskii-Moriya interaction in KAFMs.
+ABSTRACT	The former stabilizes long-range magnetic order and the latter induces spin canting out-of-plane with nonzero scalar spin chirality.
+ABSTRACT	The Floquet thermal Hall effect shows that the synthetic magnetic excitation modes in the case of circularly polarized light are topological, whereas those of linearly polarized light are not.
+Geometrically frustrated KAFMs have been an intensively active field of research due to their exotic properties such as the possibility of quantum spin liquids (QSLs) [1-3]-states where spin frustration forbids long-range magnetic order down to the lowest temperatures.
+Classically, the ideal Heisenberg KAFMs have an extensive ground-state degeneracy [4, 5], resulting in a 'zero energy mode' [6]-a signature that no classical ground-state configuration is favoured.
+However, order-by-disorder phenomenon [4, 5] is believed to lift the extensive classically degenerate ground-states and selects a specific magnetic order, usually the q = 0 spin configuration in which three spins on the triangular plaquette of the kagomÉ lattice are oriented at 120 ◦ apart.
+Another possibility of lifting the extensive classically degenerate ground-states is by adding further neighbouring interactions [6].
+Moreover, the geometry of the kagomÉ lattice lacks an inversion centre and by the Moriya's rules a Dzyaloshinskii-Moriya interaction (DMI) [7, 8] is allowed.
+The out-of-plane DMI is capable of inducing long-range magnetic order in the frustrated KAFMs [9].
+Hence, the 'zero energy mode' can be observed experimentally as a flat mode with finite energy [10].
+In realistic quantum kagomÉ materials, however, further neighbouring interactions can be perturbatively small and negligible, therefore the out-of-plane DMI is usually the dominant anisotropy in real materials.
+Nevertheless, magnetic order in quantum spin-1/2 KAFMs appears beyond a certain quantum critical point (QCP) of the out-of-plane DMI ( D z / J ~ 0.1 ) [11].
+Below the QCP it is believed that QSL persists.
+For instance, herbertsmithite ZnCu3(OH)6Cl2 has dominant out-of-plane DMI just below the QCP ( D z / J ~ 0.08 ) [12] and thus remains a QSL [13].
+The kagomÉ calcium-chromium oxide Ca10Cr7O28 has also been proposed as a QSL material and there is no evidence of a strong DMI [14].
+In the current study, we shall consider an alternative source of inducing magnetic order in frustrated KAFMs.
+The approach will be based on irradiation of laser light on the magnetic insulators.
+This approach has attracted considerable attention as a possible mechanism to engineer synthetic topological systems [15-33].
+In this letter, we formulate the theory of laser-irradiated KAFMs based on the Holstein-Primakoff magnon picture.
+However, the basic idea can also be extended to charge-neutral bosonic spinons in a similar fashion.
+The main results of this letter are as follows.
+First, we show that circularly or linearly polarized laser light is capable of lifting the 'zero energy mode' in the KAFMs, thereby inducing magnetic order.
+The associated magnetic excitation modes exhibit gaps at various points in the Brillouin zone.
+By inspection of measured spin waves in iron jarosites [10], we are able to conclude that the circularly polarized laser-induced symmetry breaking interactions possess distinctive features that are similar to the effects of intrinsic in-plane and out-of-plane DMI on kagomÉ magnetic insulators [9].
+By studying the Floquet-Bloch thermal Hall effect close to thermal equilibrium, we further establish that the magnetic excitation modes in circularly polarized light are topological, whereas those of linearly polarized light are not.
+These results suggest that laser-irradiation can be considered as one of the possible ways to induce magnetic order and nontrivial topological magnetic excitation modes in KAFMs.
+Second, we apply the theory of laser-irradiation to KAFMs with an intrinsic out-of-plane DMI.
+The results show that radiation can also tune the out-of-plane DMI in KAFMs and induce a possible synthetic noncoplanar spin configuration with nonzero scalar spin chirality.
+Let us consider the simple Hamiltonian for frustrated KAFMs, which is given by 1 and #x0E234; = J ∑ ⟨ ij ⟩ S i · S j + and #x0E234; ani , where S i are the spin magnetic moments at the lattice sites i located at r i and J > 0 is an antiferromagnetic interaction between nearest-neighbour sites.
+Here, and #x0E234; ani is a small perturbative anisotropy to the Heisenberg exchange term, which is dominated by the out-of-plane DMI given by and #x0E234; ani = ∑ ⟨ ij ⟩ D ij · S i × S j , where D ij = ± D z z ˆ is an intrinsic out-of-plane DM component due to inversion symmetry breaking on the kagomÉ lattice at the midpoint connecting two magnetic sites, and the ± sign alternates between the triangular plaquettes of the kagomÉ lattice as shown in figure 1.
+Figure 1. (a) Schematic of the kagomÉ lattice with out-of-plane DMI (dotted and crossed circles) and a coplanar q = 0 spin configuration (arrows).
+We also show the mirror reflection symmetry and #x0E239; y about the y-axis and and #x0E240; and #x0E239; x about the x-axis.
+The primitive vectors are a 1 = ( 1 , 0 ) , a 2 = ( 1 / 2 , 3 / 2 ) , and a 3 = a 2 - a 1 . (b) First Brillouin zone of the kagomÉ lattice with indicated paths.
+In the absence of the out-of-plane DMI the classical ground_states of the ideal Heisenberg KLAFM (i.e., first term in equation (1)) are the q = 0 spin configurations shown in figure 1.
+However, they are infinitely degenerate.
+A direct application of linear spin wave approximation about this classical spin configurations leads to a 'zero energy mode' [6], which points to the fact that no particular ground-state spin configuration is favoured.
+Application of a static Zeeman magnetic_field partially lifts the degeneracy but does not remove it entirely.
+In the quantum limit this would imply that the system is disordered [34].
+In the later sections, we will consider the possibility of lifting the 'zero energy mode' and inducing magnetic order by laser-irradiation.
+As previously shown the out-of-plane DMI induces and stabilizes the q = 0 classical spin configurations [9].
+The sign of the out-of-plane DMI determines which vector chirality of this long-range magnetic order is selected.
+In this letter, we consider the positive vector chirality D z > 0 with the minus sign.
+This form of the out-of-plane DMI respects the symmetries of the kagomÉ lattice in figure 1.
+In particular, the combination of time-reversal symmetry (TRS) and #x0E240; and mirror reflection symmetry and #x0E239; (i.e. and #x0E240; and #x0E239; x and #x0E240; or and #x0E239; y and #x0E240; ), is a good symmetry of the coplanar q = 0 spin configuration.
+Therefore, we expect the underlying magnetic excitations to be protected by this symmetry and there should be a possibility of Dirac point in the Brillouin zone.
+As we will show later irradiation by laser light will modify this spin structure.
+The concept of laser-driven magnetic insulators rely on the magnetic_dipole_moments of the underlying magnetic excitations as recently introduced in quantum ferromagnets [36].
+This is due to the fact that charge-neutral bosonic quasi-particles do not interact with an electromagnetic_field except through their magnetic_dipole_moment.
+Therefore, this concept applies to both magnons and spinons.
+We take the magnetic_dipole_moment to be along the in-plane ordering direction µ and #x020D7; = - g µ B y ˆ , where µ B is the Bohr magneton and g is the spin g-factor.
+Now, we suppose that an in-plane laser light with dominant electric field components E ( t ) is irradiated on the kagomÉ lattice.
+In the background of the time-varying electric field the hopping of charge-neutral bosonic quasi-particles will lead to a time-dependent Aharonov-Casher phase [37], which is given by 2 θ ij ( t ) = g µ B ℏ ∫ r i r j A ( t ) · d ℓ , where A ( t ) = A 0 ( sin Ω t , sin ( Ω t + Φ ) , 0 ) is the vector potential with amplitude A0 due to the electric field E ( t ) = - 1 c ∂ A ( t ) / ∂ t .
+Note that circularly polarized laser light corresponds to Φ = π / 2 and linearly polarization corresponds to Φ = 0 or π.
+In the following we take the units ℏ = c = g µ B = 1 .
+Next, we perform the standard spin wave analysis of the coplanar/noncollinear spin configuration on the kagomÉ lattice [6, 35].
+The basic procedure follows by rotating the coordinate axis about the z-axis by the spin orientation angles: 3 and #x0E23E; z ( θ i ) = cos θ i - sin θ i 0 sin θ i cos θ i 0 0 0 1 , where θ i = 0 , ± 2 π / 3 .
+Hence the spin transforms as S i = and #x0E23E; z ( θ i ) S i ' .
+Next, we implement the Holstein-Primakoff transformation: S i ' y → S - a i ‡ a i , S i ' + → 2 S a i = ( S i ' - ) ‡ , where S ' ± = S ' x ± i S ' z , and a i ‡ ( a i ) are the bosonic creation (annihilation) operators.
+The corresponding time-dependent magnon tight-binding Hamiltonian is given by 4 and #x0E234; ( t ) = JS ∑ ⟨ ij ⟩ [ G ij 0 ( a i ‡ a i + a j ‡ a j ) + G ij 1 ( a i ‡ a j e i θ ij ( t ) + h . c . ) + G ij 2 ( a i ‡ a j ‡ e i θ ij ( t ) + h . c . ) ] , where G ij 0 = ( 1 + D J ) / 2 ; G ij 1 = ( 1 - D J ) / 4 ; G ij 2 = ( 3 + D J ) / 4 , and D J = 3 D z / J .
+Note that the hopping terms have now acquired a time-dependent phase by virtue of the Peierls substitution.
+In the momentum space we have and #x0E234; ( t ) = ∑ k ψ k ‡ and #x0E234; k ( t ) ψ k , where ψ k ‡ = ( a k 1 ‡ , a k 2 ‡ , a k 3 ‡ , a - k 1 , a - k 2 , a - k 3 ) is the basis vector.
+5 and #x0E234; k ( t ) = 2 JS and #x0E24D; 0 + and #x0E24D; 1 ( t ) and #x0E24D; 2 ( t ) and #x0E24D; 2 ( t ) and #x0E24D; 0 + and #x0E24D; 1 ( t ) , where and #x0E24D; 0 = ( 1 + D J ) I 3 × 3 , and #x0E24D; 1 ( t ) = ( 1 - D J ) Λ ( t ) / 4 , and and #x0E24D; 2 ( t ) = ( 3 + D J ) Λ ( t ) / 4 .
+6 Λ ( t ) = 0 cos [ ( k + A ( t ) ) · a 1 ] cos [ ( k + A ( t ) ) · a 2 ] cos [ ( k + A ( t ) ) · a 1 ] 0 cos [ ( k + A ( t ) ) · a 3 ] cos [ ( k + A ( t ) ) · a 2 ] cos [ ( k + A ( t ) ) · a 3 ] 0 .
+Note that equations (4) and (5) have off-diagonal terms which do not exist in ferromagnets [36].
+However, the general formalism of Floquet theory applies to any time-dependent tight-binding Hamiltonian.
+The basic idea of Floquet theory is to transform a time-dependent Hamiltonian such as equation (4) or (5) into an effective static Hamiltonian.
+To proceed, we write the Floquet-Bloch wave function that obey time-dependent Schrödinger equation as ψ k α ( t ) = e i ε k α ( t ) Φ k α ( t ) , where Φ k α ( t ) = Φ k α ( t + T ) is a periodic function that denotes the Floquet-Bloch states for band α with period T = 2 π / Ω , and ε k α ( t ) is the quasi-energy.
+The periodic function can be expanded in Fourier space: Φ k α ( t ) = ∑ m e i m Ω t Φ k α m .
+We define the Floquet Hamiltonian operator as and #x0E234; k F ( t ) = and #x0E234; k ( t ) - i ∂ / ∂ t .
+Then the states Φ k α m leads to a time-independent Floquet energy eigenvalue equation 7 ∑ m [ and #x0E234; k n - m + m Ω Δ n , m ] Φ k α m = ε k α Φ k α n , where and #x0E234; k ℓ = 1 T ∫ 0 T d t e - i ℓ Ω t and #x0E234; k ( t ) .
+The Floquet formalism is reliable in the high frequency limit Ω > J .
+Therefore, we work in this limit and consider the truncation ℓ = 0 , ± 1 .
+At this juncture the Floquet Hamiltonian contains the zeroth order Bessel function and #x0E236; 0 ( ξ ) and the first order Bessel function and #x0E236; 1 ( ξ ) , where ξ depends on the amplitude A0 and phase Φ.
+However, the resulting Hamiltonian is a big matrix comprising numerous Floquet-Bloch side-bands.
+Therefore, analytical analysis is unfeasible we therefore resort to numerical analysis.
+We first consider the limit of zero out-of-plane DMI ( D z / J = 0 ).
+In this case a 'zero energy mode' is inevitable [6].
+In figure 2 we have shown the Floquet-Bloch magnon bands in the presence of linearly (a) and circularly (b) polarized light for D z / J = 0 and A0 = 1.5 along the Brillouin zone paths [38] in figure 1.
+In both cases, it is evident that the 'zero energy mode' is lifted to nearly flat mode at nonzero energy.
+We also observe that all the bands have a finite energy gap at the γ -point as well as the K -point.
+It is believed that circularly polarized laser light breaks TRS, but it is very crucial to identify the form of the symmetry breaking interaction induced by the laser light.
+Interestingly, the magnon bands in figure 2 (b) for circularly polarized light exhibit all the important features reported in kagomÉ iron jarosites [10].
+They include gapped magnetic excitations at various points in the Brillouin zone, which were theoretically identified as a consequence of the out-of-plane and in-plane intrinsic DMIs [10].
+Therefore, we infer that in the driven KAFMs circularly polarized light induces synthetic out-of-plane and in-plane DMIs.
+The former is responsible for the stability of the coplanar q = 0 spin configuration leading to lifted 'zero energy mode' as shown in figure 1.
+Whereas the latter which points inside the triangular plaquettes [39] breaks mirror reflection symmetry and rotational invariance and it is responsible for spin canting out-of-plane and leads to a non-coplanar umbrella spin configuration with nonzero scalar spin chirality.
+The in-plane DMI is the primary source of the energy gaps at the γ and K points.
+Therefore we conclude that irradiation by laser light can induce long-range magnetic order in highly frustrated magnets in the same way as the intrinsic DMIs [9].
+As we will discuss in the following the laser-induced anisotropy in the case of linearly polarized light (figure 2(a)) does not break TRS.
+Figure 2.
+Top figure.
+Floquet-Bloch magnon bands of frustrated KAFM for D z / J = 0 . (a) Linearly polarized light. (b) Circularly polarized light.
+Here, Ω / J = 10 , A 0 = 1.5 .
+Bottom figure.
+Floquet-Bloch magnon bands of frustrated KAFM for D z / J = 0.2 . (c) Undriven system.
+The circled point is a Dirac magnon node. (d) Laser-driven system by circularly polarized light Φ = π / 2 , with Ω / J = 10 .
+Next, we consider the limit of nonzero out-of-plane DMI ( D z / J ≠ 0 ).
+As shown in figure 2 (c) the intrinsic out-of-plane DMI lifts the 'zero energy mode' in the undriven system and stabilizes the conventional coplanar q = 0 spin configuration with a Dirac magnon node at the K -point protected by the effective TRS and #x0E240; and #x0E239; y .
+We can also see a gapless Goldstone mode at the γ -point due to U(1) rotational invariance.
+As the laser drive is tuned on this effective TRS is bound to be broken and the Dirac magnon node will be lifted as shown in figure 2 (d).
+The presence of energy gap at the γ -point also suggests that the induced synthetic anisotropy is an in-plane DM component which obviously breaks rotational invariance and modifies the conventional q = 0 spin configuration as previously mentioned.
+Now, we would like to compute an experimentally observable quantity in DM models on the kagomÉ lattice.
+The gapped excitations at the K -point suggests that the Floquet-Bloch magnon bands will be topologically nontrivial with finite Berry curvature.
+The effects of topologically nontrivial magnetic excitations are believed to manifest in the study of thermal Hall effect.
+Recently, the study of thermal Hall effect of charge-neutral bosonic quasi-particles has attracted a lot of interest in ferromagnets [40-49] and spin liquid magnetic insulators [50, 51].
+In the former, the theory of Berry curvature induced by the DMI can explain the observed thermal Hall conductivity.
+In the latter, however, the origin of thermal Hall conductivity remains an open question, but the scalar spin chirality could play a vital role [52].
+In the current study, synthetic TRS breaking interactions are induced by circularly polarized laser light and they are identified as the in-plane and out-of-plane DMI.
+Thus, the theory of thermal Hall effect can be applied in a similar way.
+However, the Floquet theory leads to nonequilibrium distribution of the quasi-particles and the Bose function n B ( ε k α ) will depend on the detail properties of the system.
+In the following we focus on the case in which the Bose function is close to thermal equilibrium and write the linear response thermal Hall conductivity as [45] κ xy = - k B 2 T ∫ BZ d 2 k ( 2 π ) 2 ∑ α = 1 N c 2 ( n α ) Ω α k , where n α ≡ n B ( ε α k ) = ( e ε α k / k B T - 1 ) - 1 is the Bose function close to thermal equilibrium, c 2 ( x ) = ( 1 + x ) ln 1 + x x 2 - ( ln x ) 2 - 2 Li 2 ( - x ) , and Li n ( x ) is a polylogarithm.
+The Berry curvature is given by Ω α k = ( ∇ × and #x0E247; α k ) z , where and #x0E247; α k = i ⟨ Φ α k | ∇ | Φ α k ⟩ is the Berry connection.
+We note that Ω α k vanishes in the undriven system with only out-of-plane DMI due to an effective TRS, and hence κ xy is zero.
+For laser-driven system by circularly polarized light the Chern_number defined as the integration of the Berry curvature over the Brillouin zone is proportional to the synthetic scalar-chirality of the noncoplanar spin configurations induced by the synthetic in-plane DMI.
+A nonzero thermal Hall conductivity implies that the underlying magnetic excitations are topologically nontrivial.
+In figure 3 we have confirmed that, indeed, the magnetic excitations are topologically nontrivial in the case of circularly polarized light ( Φ = π / 2 ) with nonzero κ xy for D z / J = 0 (a) and D z / J = 0.2 (b).
+Furthermore, we have checked numerically that κ xy vanishes for linearly polarized light ( Φ = 0 or π)-an indication that the laser-induced anisotropy in this case does not break TRS.
+Figure 3.
+Floquet thermal Hall conductivity versus temperature for circularly polarized light Φ = π / 2 and two laser amplitudes with Ω / J = 10 .
+In summary, we have shown that the dispersionless 'zero energy mode' in frustrated KAFMs can be lifted by laser-irradiation and long-range magnetic order can be induced.
+The possible circularly polarized laser-induced synthetic interactions are identified as the in-plane and out-of-plane DMIs, which play the same role in frustrated KAFMs with low crystal symmetry [9].
+In the present case, however, their strength can be tuned by the laser light.
+We also showed that the system possessed transport properties that can be experimentally accessible.
+We believe that these results are within experimental reach and can be accessible with the current terahertz frequency using ultrafast terahertz spectroscopy [53].
+Thus far, induced magnetic order in frustrated magnets is limited to applying an external magnetic_field or pressure.
+However, these methods usually do not lead to an induced in-plane and out-of-plane DMI.
+Therefore, experiments can now look for how laser irradiation modifies the properties of frustrated magnets.
+Most importantly, the laser-induced topological magnetic excitation should be the primary motive as it quantifies the effects of laser irradiation on the system.
+Then thermal Hall effect can be measured by applying a temperature gradient.
+Currently, a lifted 'zero energy mode' has only been seen clearly in iron jarosite [10], but there are numerous frustrated kagomÉ antiferromagnets.
+Therefore, another experimental task would be the possibility of inducing lifted 'zero energy mode' by laser irradiation on frustrated kagomÉ antiferromagnets such as herbertsmithite ZnCu3(OH)6Cl2, which is a known kagomÉ antiferromagnet with QSL properties.
+In the future, it would be interesting to extend the current approach to spinons by the Schwinger boson formalism.
+This will pave the way for optical manipulation of strongly correlated materials including chiral spin liquids [54].
+Research at Perimeter Institute is supported by the Government of Canada through Industry Canada and by the Province of Ontario through the Ministry of Research and Innovation.

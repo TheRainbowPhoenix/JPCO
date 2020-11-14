@@ -1,0 +1,114 @@
+TYPE	Paper
+DOI	http://doi.org/10.1088/2399-6528/aa74f6
+JOURNAL	Journal of Physics Communications
+DATE	01/09/2017
+AUTHOR	 Marceau, C; Hammond, T J; Naumov, A Yu; Corkum, P B; Villeneuve, D M; 	 
+ADDRESS	Joint Attosecond Science Laboratory, University of Ottawa and National Research Council , 100 Sussex Drive, Ottawa, ON K1A 0R6, Canada > 
+TITLE	Wavelength scaling of high harmonic generation for 267 nm, 400 nm and 800 nm driving laser pulses
+ACRONYMS	High Harmonic Generation (HHG) ; Velocity Map Imaging (VMI) ; Extreme Ultraviolet (XUV) ; 
+KEYWORDS	 high harmonic generation; photoelectron spectroscopy; wavelength scaling
+ABSTRACT	We convert optical frequencies to the extreme ultraviolet (XUV) via high harmonic generation.
+ABSTRACT	We compare the high harmonic conversion efficiency from three different driving wavelengths of 267, 400 and 800 nm, finding that the efficiency scales as Λ - 2.9 where Λ is the driving laser wavelength.
+ABSTRACT	We find that the higher conversion efficiency and the increased free spectral range between harmonic orders are benefits of a shorter driving wavelength as an XUV source.
+ABSTRACT	We use these XUV sources to measure the photoelectron spectra of several atomic and molecular species.
+__SECTION__ Introduction.
+High harmonic generation (HHG) is a nonlinear process that converts an optical laser field to the extreme ultraviolet (XUV).
+In most cases, the XUV spectrum is a series of odd harmonics of the fundamental frequency.
+The harmonic spacing is twice the frequency of the fundamental.
+This coherent XUV source has been used in femtochemistry [ 1 ], attosecond science [ 2 ], precision frequency-comb spectroscopy [ 3 ] and diffractive imaging [ 4 ].
+The maximum generated harmonic energy is determined by the HHG scaling law of \( < tex-math > < ?CDATA {\hslash }{\omega }_{c}={I}_{{\rm{p}}}+3.17{U}_{{\rm{p}}}? > < /tex-math > \)ℏωc=Ip+3.17Up , where I is the ionization potential of the generating medium, and \( < tex-math > < ?CDATA {U}_{{\rm{p}}}\propto I{\lambda }^{2}? > < /tex-math > \)Up∝IΛ2 is the ponderomotive energy, related to the laser intensity and central wavelength.
+However, this increase in maximum generated photon energy comes at the cost of XUV flux.
+It was shown theoretically [ 5 ] and experimentally [ 6 ] that the conversion efficiency to the XUV scales as \( < tex-math > < ?CDATA \eta \propto {\lambda }^{-6}? > < /tex-math > \)η∝Λ-6 for driving laser wavelengths of 0.8-2 µ m.
+Therefore it would appear that using a shorter driving wavelength will result in higher conversion efficiency [ 7 ].
+Some work has been done on the high harmonic yield [ 8 , 9 ] and the ellipticity dependence [ 10 ] of 400 nm harmonics from millimeter-thick gas targets.
+We will experimentally measure the conversion efficiency for shorter wavelengths of 800, 400 and 267 nm from a 100 µ m thick pulsed gas jet.
+We will also show that using shorter driving laser wavelengths for HHG gives an excellent source of narrowband XUV frequencies, suitable for applications such as photoelectron spectroscopy of atoms and molecules.
+The premier source of such radiation is from synchrotron facilities, which provide bright sources of tunable radiation.
+Synchrotrons are large facilities, and they offer only limited time resolution.
+HHG sources have the advantage of being tabletop devices, and offer femtosecond time resolution in pump-probe configurations.
+Current time-resolved photoelectron spectroscopy experiments [ 11 ] involve a visible or UV pump pulse to excite the molecule, followed by a delayed UV pulse to photoionize the system.
+The photoelectron kinetic energy spectrum as a function of pump-probe delay gives insight into the molecular dynamics.
+The probe must have sufficient photon energy to ionize the molecule.
+As typical nonlinear optical crystals absorb light below 200 nm, it is often necessary to use multiphoton ionization for probing.
+This means that intermediate resonances can influence the measurement [ 11 ].
+HHG sources have been used as the photoionizing probe [ 1 ], but the harmonic orders are only separated by 3.1 eV for 800 nm lasers, leading to overlap of features in the photoelectron spectrum.
+To solve this problem, time-compensated monochromators [ 12 , 13 ] can be used to isolate a single harmonic out of a comb of 800 nm odd harmonics.
+We will show that HHG driven by a UV laser gives bright harmonic lines that are widely separated (by 9.3 eV for 267 nm laser wavelength), removing the requirement for a monochromator.
+__SECTION__ Experimental setup.
+Laser pulses from a commercial Ti:sapphire laser system (50 fs, 4 mJ, 800 nm, 100 Hz) were sent into a HHG chamber.
+In a first experiment, the 800 nm pulses were focused by a 60 cm focal length concave mirror into the gas jet emanating from the 0.10 mm diameter nozzle of a pulsed gas valve loaded with 4 bar backing pressure of argon.
+In a second experiment, a 0.5 mm thick β -BBO was used to generate 400 nm pulses.
+Dichroic mirrors were employed to remove the fundamental light.
+The second harmonic pulses were then focused by a 40 cm focal length concave mirror on the same gas target.
+In a third experiment, a 0.75 mm thick calcite plate was used as a time compensator after a 0.5 mm thick β -BBO crystal.
+A half-wave plate at 800 nm (zero-wave at 400 nm) was used to make the polarizations of the fundamental and of the second harmonic parallel before sum-frequency generation inside a 0.15 mm thick β -BBO crystal.
+The third harmonic pulse (267 nm) was focused into the gas jet by a 20 cm focal length aluminum-coated concave mirror.
+The polarization of the fundamental was adjusted to obtain horizontally-polarized harmonics in each case.
+XUV light generated in the gas jet was then sent through a differential pumping tube into a second chamber where the driving laser light was removed by a 200 nm thick aluminum foil.
+The transmitted XUV radiation was then focused by a gold-coated toroidal mirror at 85° incidence into either a velocity map imaging (VMI) electron spectrometer [ 16 ] or a field-free time-of-flight electron spectrometer.
+In each case, the input laser intensity was fine-tuned by adjusting an iris before the input window.
+The gas jet position was also adjusted in three dimensions to optimize the conversion efficiency.
+The pulse energy was recorded at the optimal harmonic yield conditions.
+These conditions are as follow: 2.0 mJ at 800 nm, 1.0 mJ at 400 nm and 0.097 mJ at 267 nm.
+__SECTION__ Results and discussion.
+__SECTION__ Photoelectron spectroscopy.
+We first demonstrate qualitatively how photoelectron spectroscopy benefits from short-wavelength driven harmonics.
+The harmonics were focused at the input of a time-of-flight electron spectrometer.
+The photoelectrons emitted in a narrow cone along the polarization direction passed through a skimmer into the 50 cm drift region.
+They were detected by a micro-channel plate equipped with a conical anode detector.
+The time-of-flight signal was digitized by counting electronics with 10 GHz resolution.
+All results are plotted in figure 1 .
+The photoelectron spectrum is best resolved with the fifth harmonic of 267 nm (figure 1 (c)) where labels are indicating the ground_state ( \( < tex-math > < ?CDATA {X}^{2}{{\rm{\Sigma }}}_{g}^{+}? > < /tex-math > \)X2σg+ ) and the first two excited_states ( \( < tex-math > < ?CDATA {A}^{2}{{\rm{\Pi }}}_{u}? > < /tex-math > \)A2Πu , \( < tex-math > < ?CDATA {B}^{2}{{\rm{\Sigma }}}_{u}^{+}? > < /tex-math > \)B2σu+ ) of \( < tex-math > < ?CDATA {{\rm{N}}}_{2}^{+}? > < /tex-math > \)N2+ .
+A few comments are in order.
+First, the free spectral range between adjacent odd harmonics is equal to twice the driving laser frequency.
+Hence, the separation between adjacent harmonic orders is 3.1 eV in the 800 nm case, 6.2 eV in the 400 nm case and 9.3 eV in the 267 nm case.
+The different electronic states are better separated in the photoelectron spectrum with 400 and 267 nm driving pulses where the greater free spectral range is clearly an advantage for molecular spectroscopy.
+Second, since this spectrometer has a fairly good energy resolution ( \( < tex-math > < ?CDATA {\rm{\Delta }}{\epsilon }_{{\rm{instr}}}=3.4? > < /tex-math > \)δεinstr=3.4 meV at 5 eV, \( < tex-math > < ?CDATA {\rm{\Delta }}{\epsilon }_{{\rm{instr}}}=9.6? > < /tex-math > \)δεinstr=9.6 meV at 10 eV), we can extract individual harmonic bandwidth from these spectra.
+The vibrational progression of the \( < tex-math > < ?CDATA {A}^{2}{{\rm{\Pi }}}_{u}? > < /tex-math > \)A2Πu state offers the best opportunity for a fit.
+Each peak is spaced by 0.236 eV [ 14 ], the peaks from v = 0 to v = 2 have comparable amplitudes, and in the case of 800 nm driving laser, the \( < tex-math > < ?CDATA {A}^{2}{{\rm{\Pi }}}_{u}? > < /tex-math > \)A2Πu state does not suffer from spectral overlap between adjacent odd harmonics orders (unlike \( < tex-math > < ?CDATA {B}^{2}{{\rm{\Sigma }}}_{u}^{+}? > < /tex-math > \)B2σu+ and \( < tex-math > < ?CDATA {X}^{2}{{\rm{\Sigma }}}_{g}^{+}? > < /tex-math > \)X2σg+ ).
+The intrinsic vibrational linewidth, broadened by spin-orbit coupling and rotational branching, is about 17 meV (FWHM) at room temperature [ 15 ].
+Assuming Gaussian linewidth for all source of broadenings as a fair approximation, the deconvoluted harmonic linewidth is \( < tex-math > < ?CDATA {\rm{\Delta }}{\epsilon }_{{\rm{laser}}}=\sqrt{(}{\rm{\Delta }}{\epsilon }_{{\rm{fit}}}^{2}-{\rm{\Delta }}{\epsilon }_{{\rm{instr}}}^{2}-{\rm{\Delta }}{\epsilon }_{{\rm{lineshape}}}^{2})? > < /tex-math > \)δεlaser=(δεfit2-δεinstr2-δεlineshape2) .
+Results are reported in table 1 .
+However, note that we did optimize laser parameters for high harmonic yield and not for spectral narrowness.
+Simply put, the individual harmonic bandwidth depends on the chirp of the driving laser pulse, but also on essentially all laser parameters, on the choice of the gas target and on the sub-femtosecond ionization (plasma) dynamics during harmonic generation.
+Pulse durations estimates were derived taking into account the Fourier-transform limited spectrum of the driving laser and dispersion in the input chamber window.
+Anecdotally, we achieved a 0.07 eV (FWHM) bandwidth for the seventh harmonic of 400 nm when generating harmonics in N , but with a lower photon flux.
+Photoelectron spectra of several gas species were also taken under similar conditions using the VMI detector.
+A few spectra are presented in figure 2 .
+For systems with simple photoelectronic spectra such as argon and neon, the singly-ionized atoms are left in the ground_state of the ion which are Ar <sup>+</sup> : [Ne]3s <sup>2</sup> 3p <sup>5 2</sup> P <sup>0</sup> \( < tex-math > < ?CDATA J=3/2? > < /tex-math > \)J=3/2 and \( < tex-math > < ?CDATA J=1/2? > < /tex-math > \)J=1/2 and Ne <sup>+</sup> : [He]2s <sup>2</sup> 2p <sup>5 2</sup> P <sup>0</sup> \( < tex-math > < ?CDATA J=3/2? > < /tex-math > \)J=3/2 and \( < tex-math > < ?CDATA J=1/2? > < /tex-math > \)J=1/2 .
+The two spin-orbit states are not resolved.
+In these cases, 800 nm harmonics provide nicely multiplexed and non-overlapping spectra from which useful information can be extracted such as relative cross-sections and laboratory-frame photoelectron angular distributions.
+In the case of molecules such as N and CO , the photoelectron spectra are more complex as they typically present several electronic states, plus vibrational and rotational progressions (not resolved here).
+In the nitrogen spectrum, \( < tex-math > < ?CDATA {{\rm{N}}}_{2}^{+}? > < /tex-math > \)N2+ is left in one of the three states \( < tex-math > < ?CDATA {X}^{2}{{\rm{\Sigma }}}_{g}^{+}? > < /tex-math > \)X2σg+ , \( < tex-math > < ?CDATA {A}^{2}{{\rm{\Pi }}}_{u}? > < /tex-math > \)A2Πu and \( < tex-math > < ?CDATA {B}^{2}{{\rm{\Sigma }}}_{u}^{+}? > < /tex-math > \)B2σu+ .
+In carbon dioxide, \( < tex-math > < ?CDATA {{\rm{C}}{\rm{O}}}_{2}^{+}? > < /tex-math > \)CO2+ is left in either \( < tex-math > < ?CDATA {X}^{2}{{\rm{\Pi }}}_{g}? > < /tex-math > \)X2Πg , \( < tex-math > < ?CDATA {A}^{2}{{\rm{\Pi }}}_{u}? > < /tex-math > \)A2Πu , \( < tex-math > < ?CDATA {B}^{2}{{\rm{\Sigma }}}_{u}^{+}? > < /tex-math > \)B2σu+ or \( < tex-math > < ?CDATA {C}^{2}{{\rm{\Sigma }}}_{g}^{+}? > < /tex-math > \)C2σg+ .
+Accidental overlap between different states from adjacent harmonics of 800 nm presents a problem.
+The large free spectral range for 400 and 267 nm solves this problem.
+In addition, the brighter XUV speeds up data acquisition.
+Each VMI image shown in figure 2 was Abel-inverted by the pBaseX algorithm [ 17 ].
+At each photoelectron energy of the grid, the photoelectron angular distribution is given by a truncated sum of even Legendre polynomials: \( < tex-math > < ?CDATA I(\theta )={I}_{0}{\sum }_{n=0}^{n=3}{\beta }_{2n}{P}_{2n}(\cos \theta )? > < /tex-math > \)I(Θ)=I0∑n=0n=3β2nP2n(cosΘ) .
+Here Θ is the angle with respect to the XUV polarization direction.
+__SECTION__ High harmonic efficiency measurement.
+We now estimate the efficiency of conversion of HHG generated in argon from driving laser energy into XUV energy.
+The energy content of each harmonic peak per unit of driving laser pulse energy, derived from the VMI measurements of figure 2 , is reported in figure 3 (a), and the corresponding \( < tex-math > < ?CDATA {\beta }_{2}? > < /tex-math > \)β2 parameters can be found in figure 3 (b).
+Assuming constant gas target density in the VMI interaction region and knowing the photoionization cross sections for argon and neon [ 19 ], these measurements can be compared directly.
+Small corrections for the aluminum filter transmission [ 20 ] were also made assuming a chemical composition of 170 nm of pure aluminum and 30 nm of Al O .
+Harmonics up to order 7, 9 and 33 could be observed at 267 nm, 400 nm and 800 nm, respectively.
+The XUV energy per pulse was integrated over the photon energy band 19-37 eV.
+There are six odd harmonics of 800 nm (H13-H21), three odd harmonics of 400 nm (but only H7 and H9 could be measured above noise level) and two odd harmonics of 267 nm (H5-H7).
+The results of the integration are presented in figure 4 .
+We found that high harmonic conversion efficiency scales as \( < tex-math > < ?CDATA {\lambda }^{-x}? > < /tex-math > \)Λ-x with \( < tex-math > < ?CDATA x={2.9}_{-0.7}^{+1.5}? > < /tex-math > \)x=2.9-0.7+1.5 for the 19-37 eV range taken as a whole.
+In terms of conversion efficiency per harmonic order averaged in the same range, the exponent is \( < tex-math > < ?CDATA x={3.9}_{-0.7}^{+1.5}? > < /tex-math > \)x=3.9-0.7+1.5 .
+This slope is smaller than the single atom response of \( < tex-math > < ?CDATA x=6.4\pm 1.2? > < /tex-math > \)x=6.4±1.2 reported by Shiner et al [ 6 ].
+The lower exponent that we observe is more consistent with [ 9 ] where an exponent \( < tex-math > < ?CDATA x=4.7\pm 1.0? > < /tex-math > \)x=4.7±1.0 per harmonic order was measured at 32 eV using driving wavelengths of 529-800 nm.
+This discrepancy can be explained by the fact that at 267 nm, there is no plateau in the harmonic spectrum, and the three-step model of HHG [ 21 ] does not apply.
+As our experimental conditions such as beam size, intensity, ionization of the medium and gas jet position are not as well maintained as Shiner et al [ 6 ], we do not claim to be measuring the single atom response.
+We are rather measuring a relative conversion efficiency for the practical case where a thin gas jet is used to generate harmonics.
+In figure 4 we also show the predicted single-atom wavelength scaling from a TDSE calculation for a constant laser intensity.
+The parameters were: ionization potential of 15.4 eV, peak intensity of \( < tex-math > < ?CDATA 6\times {10}^{13}? > < /tex-math > \)6×1013 W cm <sup>-2</sup> , pulse duration 40 fs, energy integrated over 19-37 eV.
+The single-atom, single-intensity scaling of conversion efficiency is \( < tex-math > < ?CDATA {\lambda }^{-x}? > < /tex-math > \)Λ-x with \( < tex-math > < ?CDATA x={1.7}_{-0.1}^{+0.3}? > < /tex-math > \)x=1.7-0.1+0.3 .
+The discrepancy between the calculation and the experiment is due to not controlling the intensity and pulse duration in the experiment.
+__SECTION__ Conclusions.
+We have shown that there are clear advantages to using short wavelength lasers to create vacuum ultraviolet light radiation via HHG.
+The addition of one or two nonlinear crystals is relatively easy to implement experimentally.
+The advantageous scaling of the conversion efficiency, \( < tex-math > < ?CDATA {\lambda }^{-2.9}? > < /tex-math > \)Λ-2.9 (integrated over all harmonic orders in the range 19-37 eV) or \( < tex-math > < ?CDATA {\lambda }^{-3.9}? > < /tex-math > \)Λ-3.9 (per harmonic order in the range 19-37 eV) more than makes up for the additional effort.
+The high brightness and greater free spectral range of the resulting harmonic comb and its short duration make an ideal workhorse to perform time-resolved photoelectron spectroscopy.
