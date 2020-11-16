@@ -57,6 +57,21 @@ class TextTools:
         return sum(c.isalpha() for c in text) > min_letter_count*len(text)
 
 
+class NLPTools:
+    @classmethod
+    def ngrams(cls, text: str, n: int) -> list:
+        return [tuple(text[i:i+n]) for i in range(len(text)-n+1)]
+
+    @classmethod
+    def count_grams(cls, grams: list) -> list:
+        uniq = list(set(grams))
+        return [(i, grams.count(i)) for i in uniq]
+
+    @classmethod
+    def sort_grams(cls, grams: list) -> list:
+        return sorted(grams, key=lambda x: x[1], reverse=True)
+
+
 class Fonctionnels:
     def __init__(self):
         self._stopwords = []
@@ -146,3 +161,22 @@ parser = JPCOParser().from_text("".join(l)).parse_keywords().set_stopwords(stop_
 
 print(parser.keywords)
 print(parser._text)
+
+N_TOP = 20
+
+text = TextTools.lower(parser._text)
+
+NGRAMS = [3, 8, 16, 24]
+
+for n in NGRAMS:
+    all_n_grams = NLPTools.ngrams(text, n)
+    counted_n_grams = NLPTools.count_grams(all_n_grams)
+    sorted_n_grams = NLPTools.sort_grams(counted_n_grams)
+    top_n = sorted_n_grams[:N_TOP]
+    print(f"Top {N_TOP} {n}-grams: ", " ,".join(["\'{0}\'".format(''.join(i[0])) for i in top_n]))
+
+words = [tuple(i) for i in text.strip().split()]
+counted_words = NLPTools.count_grams(words)
+sorted_words = NLPTools.sort_grams(counted_words)
+top_n = sorted_words[:N_TOP]
+print(f"Top {N_TOP} words: ", " ,".join(["\'{0}\'".format(''.join(i[0])) for i in top_n]))
