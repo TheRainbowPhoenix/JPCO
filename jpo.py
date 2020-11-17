@@ -18,6 +18,14 @@ class TextTools:
         return text.lower()
 
     @classmethod
+    def all_low_but_first(cls, text: str) -> bool:
+        return True if len(text) < 2 else text[1:].lower() == text[1:]
+
+    @classmethod
+    def smart_lower(cls, text: str) -> str:
+        return " ".join([i[0].lower() + i[1:] if len(i) >= 2 and cls.all_low_but_first(i) else i for i in text.strip().split()])
+
+    @classmethod
     def remove_unicode(cls, text: str) -> str:
         text = unidecode(text)
         return cls.trim_regex(text.encode('ascii', 'ignore').decode(), "\[\?\]")
@@ -144,6 +152,7 @@ class JPCOParser:
         for regex in self.IGNORES_REGEX:
             text = TextTools.trim_regex(text, regex)
 
+        text = TextTools.smart_lower(text)
         text = TextTools.remove_unicode(text)
         text = TextTools.normalize_whitespaces(text)
         text = TextTools.normalize_letters(text)
